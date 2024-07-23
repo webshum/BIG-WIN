@@ -85,9 +85,6 @@ const filteredCountries = computed(() => {
 });
 
 onMounted(async () => {
-	if (!localStorage.getItem('token')) {
-		router.push('/');
-	}
 
 	const result = await fetch('https://fdspnasa.info/api/v1/countries', {
 		method: 'POST',
