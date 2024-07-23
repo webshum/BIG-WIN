@@ -11,6 +11,7 @@
 :root {
 	--c-bg: #0F1011;
 	--c-red: #F04438;
+	--c-yellow: #F3B414;
 	--anton: "Anton SC", sans-serif;
 	--awant: 'ITC Avant Garde Gothic Std', sans-serif;
 }
@@ -62,6 +63,22 @@ img {
 	cursor: pointer;
 }
 
+.field {
+	position: relative;
+
+	.error {
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		transform: translateX(-50%);
+		color: var(--c-red);
+		font-size: 12px;
+		font-weight: 500;
+		font-family: 'Montserrat', sans-serif;
+		margin-top: 5px;
+	}
+}
+
 h2.title {
 	font-family: var(--anton);
 	font-size: 48px;
@@ -104,7 +121,7 @@ input[type=number]::-webkit-inner-spin-button {
 	width: 100%;
 	font-weight: bold;
 	text-align: center;
-	font-size: 20px;
+	font-size: 15px;
 
 	button {
 		background: none;
@@ -113,6 +130,15 @@ input[type=number]::-webkit-inner-spin-button {
 		text-transform: uppercase;
 		outline: none;
 	}
+}
+
+.flag {
+	width: 25px;
+	min-width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	object-fit: cover;
+	object-position: center;
 }
 
 .btn-discrover {

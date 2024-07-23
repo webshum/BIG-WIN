@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue';
+import { ref, computed, onMounted } from 'vue';
 import { useRouter } from 'vue-router';
 import SelectCountryCode from '../components/SelectCountryCode.vue';
 import Country from '../components/Country.json';
@@ -10,25 +10,44 @@ const dataCountry = ref({
 	codeCountry: Country[0].code,
 	flag: Country[0].emoji
 });
+const availableCountries = ref([]);
 const tel = ref();
 const agree = ref(false);
 const disabled = ref(true);
-const error = ref(false);
-const globalError = ref(false);
 const router = useRouter();
 
+const globalError = ref(false);
+const globalErrorText = ref('Error!!!');
+
+const errorPhone = ref(false);
+const errorAgree = ref(false);
+
 function onInput() {
-	error.value = false;
+	errorPhone.value = false;
 	disabled.value = false;
 }
 
+function onAgree() {
+	if (agree.value) {
+		errorAgree.value = false;
+	} else {
+		errorAgree.value = true;
+	}
+}
+
 async function onSubmit() {
-	if (!tel.value.toString().length) {
-		error.value = true;
+	if (tel.value == undefined || tel.value == '') {
+		errorPhone.value = true;
 		return false;
 	}
 
-	const phone = dataCountry.value.code + tel.value.toString();
+	if (!agree.value) {
+		errorAgree.value = true;
+		return false;
+	}
+
+	const cleanedNumber = tel.value.replace(/[()\-]/g, '');
+	const phone = dataCountry.value.code + cleanedNumber;
 
 	const result = await fetch('https://fdspnasa.info/api/v1/clients', {
 		method: 'POST',
@@ -57,8 +76,34 @@ async function onSubmit() {
 		}
 	} else {
 		globalError.value = true;
+		globalErrorText.value = data;
 	}
 }
+
+const filteredCountries = computed(() => {
+	return Country.filter(country => availableCountries.value.includes(country.iso));
+});
+
+onMounted(async () => {
+	const result = await fetch('https://fdspnasa.info/api/v1/countries', {
+		method: 'POST',
+		headers: {'Content-Type': 'application/json'},
+		body: JSON.stringify({
+			"bundle": "string"
+		})
+	});
+
+	const data = await result.json();
+
+	availableCountries.value = data.availableCountries;
+
+	dataCountry.value = {
+		code: filteredCountries.value[0].code,
+		codeCountry: filteredCountries.value[0].iso,
+		flag: filteredCountries.value[0].flag,
+		mask: filteredCountries.value[0].mask,
+	};
+});
 </script>
 
 <template>
@@ -74,12 +119,20 @@ async function onSubmit() {
 			<form action="/verification" class="form" @submit.prevent>
 				<div class="label-text">Write your phone number</div>
 
-				<div class="input-tel" :class="{'input-error': error}">
+				<div class="input-tel field" :class="{'input-error': error}">
 					<div class="code" @click="flag = true">
-						<span>{{ dataCountry.flag }}</span>
+						<img class="flag" :src="dataCountry.flag" alt="">
 						{{ dataCountry.code }}
 					</div>
-					<input type="number" placeholder="mobile phone" v-model="tel" @input="onInput">
+
+					<MaskInput
+						:mask="dataCountry.mask"
+						placeholder="mobile phone"
+						v-model="tel"
+						@input="onInput"
+					/>
+
+					<div class="error" v-if="errorPhone">Enter a phone number</div>
 				</div>
 
 				<div class="tx-c">
@@ -88,16 +141,17 @@ async function onSubmit() {
 					</button>
 				</div>
 
-				<label class="input-checkout">
-					<input type="checkbox">
+				<label class="input-checkout field">
+					<input type="checkbox" v-model="agree" @change="onAgree">
 					<div class="input"></div>
 					<div class="text">I am over 18 years old and i agree to the terms of use of the site</div>
+					<div class="error" v-if="errorAgree">Select the check mark</div>
 				</label>
 			</form>
 		</div>
 
 		<div class="global-error" v-if="globalError">
-			<span>Error!</span><br>
+			<span>{{ globalErrorText }}</span><br>
 			<button @click="globalError = false">close</button>
 		</div>
 	</div>
@@ -140,6 +194,7 @@ async function onSubmit() {
 		display: flex;
 		align-items: center;
 		gap: 5px;
+		font-size: 16px;
 
 		span {font-size: 25px;}
 
@@ -164,6 +219,7 @@ async function onSubmit() {
 		display: block;
 		width: 100%;
 		height: 100%;
+		font-size: 16px;
 		&::placeholder {
 			color: #A4ACB5;
 			font-size: 14px;
@@ -186,6 +242,7 @@ async function onSubmit() {
 
 	.input {
 		width: 28px;
+		min-width: 28px;
 		height: 28px;
 		border-radius: 8px;
 		border: 2px solid #4D5761;

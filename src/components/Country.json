@@ -1,1930 +1,1842 @@
 [
-	{
-		"name": "Andorra",
-		"code": "AD",
-		"emoji": "🇦🇩",
-		"unicode": "U+1F1E6 U+1F1E9",
-		"image": "AD.svg",
-		"dial_code": "+376"
-	},
-	{
-		"name": "United Arab Emirates",
-		"code": "AE",
-		"emoji": "🇦🇪",
-		"unicode": "U+1F1E6 U+1F1EA",
-		"image": "AE.svg",
-		"dial_code": "+971"
-	},
-	{
-		"name": "Afghanistan",
-		"code": "AF",
-		"emoji": "🇦🇫",
-		"unicode": "U+1F1E6 U+1F1EB",
-		"image": "AF.svg",
-		"dial_code": "+93"
-	},
-	{
-		"name": "Antigua & Barbuda",
-		"code": "AG",
-		"emoji": "🇦🇬",
-		"unicode": "U+1F1E6 U+1F1EC",
-		"image": "AG.svg",
-		"dial_code": "+1268"
-	},
-	{
-		"name": "Anguilla",
-		"code": "AI",
-		"emoji": "🇦🇮",
-		"unicode": "U+1F1E6 U+1F1EE",
-		"image": "AI.svg",
-		"dial_code": "+1264"
-	},
-	{
-		"name": "Albania",
-		"code": "AL",
-		"emoji": "🇦🇱",
-		"unicode": "U+1F1E6 U+1F1F1",
-		"image": "AL.svg",
-		"dial_code": "+355"
-	},
-	{
-		"name": "Armenia",
-		"code": "AM",
-		"emoji": "🇦🇲",
-		"unicode": "U+1F1E6 U+1F1F2",
-		"image": "AM.svg",
-		"dial_code": "+374"
-	},
-	{
-		"name": "Angola",
-		"code": "AO",
-		"emoji": "🇦🇴",
-		"unicode": "U+1F1E6 U+1F1F4",
-		"image": "AO.svg",
-		"dial_code": "+244"
-	},
-	{
-		"name": "Antarctica",
-		"code": "AQ",
-		"emoji": "🇦🇶",
-		"unicode": "U+1F1E6 U+1F1F6",
-		"image": "AQ.svg",
-		"dial_code": "+672"
-	},
-	{
-		"name": "Argentina",
-		"code": "AR",
-		"emoji": "🇦🇷",
-		"unicode": "U+1F1E6 U+1F1F7",
-		"image": "AR.svg",
-		"dial_code": "+54"
-	},
-	{
-		"name": "American Samoa",
-		"code": "AS",
-		"emoji": "🇦🇸",
-		"unicode": "U+1F1E6 U+1F1F8",
-		"image": "AS.svg",
-		"dial_code": "+1684"
-	},
-	{
-		"name": "Austria",
-		"code": "AT",
-		"emoji": "🇦🇹",
-		"unicode": "U+1F1E6 U+1F1F9",
-		"image": "AT.svg",
-		"dial_code": "+43"
-	},
-	{
-		"name": "Australia",
-		"code": "AU",
-		"emoji": "🇦🇺",
-		"unicode": "U+1F1E6 U+1F1FA",
-		"image": "AU.svg",
-		"dial_code": "+61"
-	},
-	{
-		"name": "Aruba",
-		"code": "AW",
-		"emoji": "🇦🇼",
-		"unicode": "U+1F1E6 U+1F1FC",
-		"image": "AW.svg",
-		"dial_code": "+297"
-	},
-	{
-		"name": "Åland Islands",
-		"code": "AX",
-		"emoji": "🇦🇽",
-		"unicode": "U+1F1E6 U+1F1FD",
-		"image": "AX.svg",
-		"dial_code": "+358"
-	},
-	{
-		"name": "Azerbaijan",
-		"code": "AZ",
-		"emoji": "🇦🇿",
-		"unicode": "U+1F1E6 U+1F1FF",
-		"image": "AZ.svg",
-		"dial_code": "+994"
-	},
-	{
-		"name": "Bosnia & Herzegovina",
-		"code": "BA",
-		"emoji": "🇧🇦",
-		"unicode": "U+1F1E7 U+1F1E6",
-		"image": "BA.svg",
-		"dial_code": "+387"
-	},
-	{
-		"name": "Barbados",
-		"code": "BB",
-		"emoji": "🇧🇧",
-		"unicode": "U+1F1E7 U+1F1E7",
-		"image": "BB.svg",
-		"dial_code": "+1246"
-	},
-	{
-		"name": "Bangladesh",
-		"code": "BD",
-		"emoji": "🇧🇩",
-		"unicode": "U+1F1E7 U+1F1E9",
-		"image": "BD.svg",
-		"dial_code": "+880"
-	},
-	{
-		"name": "Belgium",
-		"code": "BE",
-		"emoji": "🇧🇪",
-		"unicode": "U+1F1E7 U+1F1EA",
-		"image": "BE.svg",
-		"dial_code": "+32"
-	},
-	{
-		"name": "Burkina Faso",
-		"code": "BF",
-		"emoji": "🇧🇫",
-		"unicode": "U+1F1E7 U+1F1EB",
-		"image": "BF.svg",
-		"dial_code": "+226"
-	},
-	{
-		"name": "Bulgaria",
-		"code": "BG",
-		"emoji": "🇧🇬",
-		"unicode": "U+1F1E7 U+1F1EC",
-		"image": "BG.svg",
-		"dial_code": "+359"
-	},
-	{
-		"name": "Bahrain",
-		"code": "BH",
-		"emoji": "🇧🇭",
-		"unicode": "U+1F1E7 U+1F1ED",
-		"image": "BH.svg",
-		"dial_code": "+973"
-	},
-	{
-		"name": "Burundi",
-		"code": "BI",
-		"emoji": "🇧🇮",
-		"unicode": "U+1F1E7 U+1F1EE",
-		"image": "BI.svg",
-		"dial_code": "+257"
-	},
-	{
-		"name": "Benin",
-		"code": "BJ",
-		"emoji": "🇧🇯",
-		"unicode": "U+1F1E7 U+1F1EF",
-		"image": "BJ.svg",
-		"dial_code": "+229"
-	},
-	{
-		"name": "St. Barthélemy",
-		"code": "BL",
-		"emoji": "🇧🇱",
-		"unicode": "U+1F1E7 U+1F1F1",
-		"image": "BL.svg",
-		"dial_code": "+590"
-	},
-	{
-		"name": "Bermuda",
-		"code": "BM",
-		"emoji": "🇧🇲",
-		"unicode": "U+1F1E7 U+1F1F2",
-		"image": "BM.svg",
-		"dial_code": "+1441"
-	},
-	{
-		"name": "Brunei",
-		"code": "BN",
-		"emoji": "🇧🇳",
-		"unicode": "U+1F1E7 U+1F1F3",
-		"image": "BN.svg",
-		"dial_code": "+673"
-	},
-	{
-		"name": "Bolivia",
-		"code": "BO",
-		"emoji": "🇧🇴",
-		"unicode": "U+1F1E7 U+1F1F4",
-		"image": "BO.svg",
-		"dial_code": "+591"
-	},
-	{
-		"name": "Brazil",
-		"code": "BR",
-		"emoji": "🇧🇷",
-		"unicode": "U+1F1E7 U+1F1F7",
-		"image": "BR.svg",
-		"dial_code": "+55"
-	},
-	{
-		"name": "Bahamas",
-		"code": "BS",
-		"emoji": "🇧🇸",
-		"unicode": "U+1F1E7 U+1F1F8",
-		"image": "BS.svg",
-		"dial_code": "+1242"
-	},
-	{
-		"name": "Bhutan",
-		"code": "BT",
-		"emoji": "🇧🇹",
-		"unicode": "U+1F1E7 U+1F1F9",
-		"image": "BT.svg",
-		"dial_code": "+975"
-	},
-	{
-		"name": "Botswana",
-		"code": "BW",
-		"emoji": "🇧🇼",
-		"unicode": "U+1F1E7 U+1F1FC",
-		"image": "BW.svg",
-		"dial_code": "+267"
-	},
-	{
-		"name": "Belarus",
-		"code": "BY",
-		"emoji": "🇧🇾",
-		"unicode": "U+1F1E7 U+1F1FE",
-		"image": "BY.svg",
-		"dial_code": "+375"
-	},
-	{
-		"name": "Belize",
-		"code": "BZ",
-		"emoji": "🇧🇿",
-		"unicode": "U+1F1E7 U+1F1FF",
-		"image": "BZ.svg",
-		"dial_code": "+501"
-	},
-	{
-		"name": "Canada",
-		"code": "CA",
-		"emoji": "🇨🇦",
-		"unicode": "U+1F1E8 U+1F1E6",
-		"image": "CA.svg",
-		"dial_code": "+1"
-	},
-	{
-		"name": "Cocos (Keeling) Islands",
-		"code": "CC",
-		"emoji": "🇨🇨",
-		"unicode": "U+1F1E8 U+1F1E8",
-		"image": "CC.svg",
-		"dial_code": "+61"
-	},
-	{
-		"name": "Congo - Kinshasa",
-		"code": "CD",
-		"emoji": "🇨🇩",
-		"unicode": "U+1F1E8 U+1F1E9",
-		"image": "CD.svg",
-		"dial_code": "+243"
-	},
-	{
-		"name": "Central African Republic",
-		"code": "CF",
-		"emoji": "🇨🇫",
-		"unicode": "U+1F1E8 U+1F1EB",
-		"image": "CF.svg",
-		"dial_code": "+236"
-	},
-	{
-		"name": "Congo - Brazzaville",
-		"code": "CG",
-		"emoji": "🇨🇬",
-		"unicode": "U+1F1E8 U+1F1EC",
-		"image": "CG.svg",
-		"dial_code": "+242"
-	},
-	{
-		"name": "Switzerland",
-		"code": "CH",
-		"emoji": "🇨🇭",
-		"unicode": "U+1F1E8 U+1F1ED",
-		"image": "CH.svg",
-		"dial_code": "+41"
-	},
-	{
-		"name": "Côte d’Ivoire",
-		"code": "CI",
-		"emoji": "🇨🇮",
-		"unicode": "U+1F1E8 U+1F1EE",
-		"image": "CI.svg",
-		"dial_code": "+225"
-	},
-	{
-		"name": "Cook Islands",
-		"code": "CK",
-		"emoji": "🇨🇰",
-		"unicode": "U+1F1E8 U+1F1F0",
-		"image": "CK.svg",
-		"dial_code": "+682"
-	},
-	{
-		"name": "Chile",
-		"code": "CL",
-		"emoji": "🇨🇱",
-		"unicode": "U+1F1E8 U+1F1F1",
-		"image": "CL.svg",
-		"dial_code": "+56"
-	},
-	{
-		"name": "Cameroon",
-		"code": "CM",
-		"emoji": "🇨🇲",
-		"unicode": "U+1F1E8 U+1F1F2",
-		"image": "CM.svg",
-		"dial_code": "+237"
-	},
-	{
-		"name": "China",
-		"code": "CN",
-		"emoji": "🇨🇳",
-		"unicode": "U+1F1E8 U+1F1F3",
-		"image": "CN.svg",
-		"dial_code": "+86"
-	},
-	{
-		"name": "Colombia",
-		"code": "CO",
-		"emoji": "🇨🇴",
-		"unicode": "U+1F1E8 U+1F1F4",
-		"image": "CO.svg",
-		"dial_code": "+57"
-	},
-	{
-		"name": "Costa Rica",
-		"code": "CR",
-		"emoji": "🇨🇷",
-		"unicode": "U+1F1E8 U+1F1F7",
-		"image": "CR.svg",
-		"dial_code": "+506"
-	},
-	{
-		"name": "Cuba",
-		"code": "CU",
-		"emoji": "🇨🇺",
-		"unicode": "U+1F1E8 U+1F1FA",
-		"image": "CU.svg",
-		"dial_code": "+53"
-	},
-	{
-		"name": "Cape Verde",
-		"code": "CV",
-		"emoji": "🇨🇻",
-		"unicode": "U+1F1E8 U+1F1FB",
-		"image": "CV.svg",
-		"dial_code": "+238"
-	},
-	{
-		"name": "Christmas Island",
-		"code": "CX",
-		"emoji": "🇨🇽",
-		"unicode": "U+1F1E8 U+1F1FD",
-		"image": "CX.svg",
-		"dial_code": "+61"
-	},
-	{
-		"name": "Cyprus",
-		"code": "CY",
-		"emoji": "🇨🇾",
-		"unicode": "U+1F1E8 U+1F1FE",
-		"image": "CY.svg",
-		"dial_code": "+357"
-	},
-	{
-		"name": "Czechia",
-		"code": "CZ",
-		"emoji": "🇨🇿",
-		"unicode": "U+1F1E8 U+1F1FF",
-		"image": "CZ.svg",
-		"dial_code": "+420"
-	},
-	{
-		"name": "Germany",
-		"code": "DE",
-		"emoji": "🇩🇪",
-		"unicode": "U+1F1E9 U+1F1EA",
-		"image": "DE.svg",
-		"dial_code": "+49"
-	},
-	{
-		"name": "Djibouti",
-		"code": "DJ",
-		"emoji": "🇩🇯",
-		"unicode": "U+1F1E9 U+1F1EF",
-		"image": "DJ.svg",
-		"dial_code": "+253"
-	},
-	{
-		"name": "Denmark",
-		"code": "DK",
-		"emoji": "🇩🇰",
-		"unicode": "U+1F1E9 U+1F1F0",
-		"image": "DK.svg",
-		"dial_code": "+45"
-	},
-	{
-		"name": "Dominica",
-		"code": "DM",
-		"emoji": "🇩🇲",
-		"unicode": "U+1F1E9 U+1F1F2",
-		"image": "DM.svg",
-		"dial_code": "+1767"
-	},
-	{
-		"name": "Dominican Republic",
-		"code": "DO",
-		"emoji": "🇩🇴",
-		"unicode": "U+1F1E9 U+1F1F4",
-		"image": "DO.svg",
-		"dial_code": "+1849"
-	},
-	{
-		"name": "Algeria",
-		"code": "DZ",
-		"emoji": "🇩🇿",
-		"unicode": "U+1F1E9 U+1F1FF",
-		"image": "DZ.svg",
-		"dial_code": "+213"
-	},
-	{
-		"name": "Ecuador",
-		"code": "EC",
-		"emoji": "🇪🇨",
-		"unicode": "U+1F1EA U+1F1E8",
-		"image": "EC.svg",
-		"dial_code": "+593"
-	},
-	{
-		"name": "Estonia",
-		"code": "EE",
-		"emoji": "🇪🇪",
-		"unicode": "U+1F1EA U+1F1EA",
-		"image": "EE.svg",
-		"dial_code": "+372"
-	},
-	{
-		"name": "Egypt",
-		"code": "EG",
-		"emoji": "🇪🇬",
-		"unicode": "U+1F1EA U+1F1EC",
-		"image": "EG.svg",
-		"dial_code": "+20"
-	},
-	{
-		"name": "Eritrea",
-		"code": "ER",
-		"emoji": "🇪🇷",
-		"unicode": "U+1F1EA U+1F1F7",
-		"image": "ER.svg",
-		"dial_code": "+291"
-	},
-	{
-		"name": "Spain",
-		"code": "ES",
-		"emoji": "🇪🇸",
-		"unicode": "U+1F1EA U+1F1F8",
-		"image": "ES.svg",
-		"dial_code": "+34"
-	},
-	{
-		"name": "Ethiopia",
-		"code": "ET",
-		"emoji": "🇪🇹",
-		"unicode": "U+1F1EA U+1F1F9",
-		"image": "ET.svg",
-		"dial_code": "+251"
-	},
-	{
-		"name": "Finland",
-		"code": "FI",
-		"emoji": "🇫🇮",
-		"unicode": "U+1F1EB U+1F1EE",
-		"image": "FI.svg",
-		"dial_code": "+358"
-	},
-	{
-		"name": "Fiji",
-		"code": "FJ",
-		"emoji": "🇫🇯",
-		"unicode": "U+1F1EB U+1F1EF",
-		"image": "FJ.svg",
-		"dial_code": "+679"
-	},
-	{
-		"name": "Falkland Islands",
-		"code": "FK",
-		"emoji": "🇫🇰",
-		"unicode": "U+1F1EB U+1F1F0",
-		"image": "FK.svg",
-		"dial_code": "+500"
-	},
-	{
-		"name": "Micronesia",
-		"code": "FM",
-		"emoji": "🇫🇲",
-		"unicode": "U+1F1EB U+1F1F2",
-		"image": "FM.svg",
-		"dial_code": "+691"
-	},
-	{
-		"name": "Faroe Islands",
-		"code": "FO",
-		"emoji": "🇫🇴",
-		"unicode": "U+1F1EB U+1F1F4",
-		"image": "FO.svg",
-		"dial_code": "+298"
-	},
-	{
-		"name": "France",
-		"code": "FR",
-		"emoji": "🇫🇷",
-		"unicode": "U+1F1EB U+1F1F7",
-		"image": "FR.svg",
-		"dial_code": "+33"
-	},
-	{
-		"name": "Gabon",
-		"code": "GA",
-		"emoji": "🇬🇦",
-		"unicode": "U+1F1EC U+1F1E6",
-		"image": "GA.svg",
-		"dial_code": "+241"
-	},
-	{
-		"name": "United Kingdom",
-		"code": "GB",
-		"emoji": "🇬🇧",
-		"unicode": "U+1F1EC U+1F1E7",
-		"image": "GB.svg",
-		"dial_code": "+44"
-	},
-	{
-		"name": "Grenada",
-		"code": "GD",
-		"emoji": "🇬🇩",
-		"unicode": "U+1F1EC U+1F1E9",
-		"image": "GD.svg",
-		"dial_code": "+1473"
-	},
-	{
-		"name": "Georgia",
-		"code": "GE",
-		"emoji": "🇬🇪",
-		"unicode": "U+1F1EC U+1F1EA",
-		"image": "GE.svg",
-		"dial_code": "+995"
-	},
-	{
-		"name": "French Guiana",
-		"code": "GF",
-		"emoji": "🇬🇫",
-		"unicode": "U+1F1EC U+1F1EB",
-		"image": "GF.svg",
-		"dial_code": "+594"
-	},
-	{
-		"name": "Guernsey",
-		"code": "GG",
-		"emoji": "🇬🇬",
-		"unicode": "U+1F1EC U+1F1EC",
-		"image": "GG.svg",
-		"dial_code": "+44"
-	},
-	{
-		"name": "Ghana",
-		"code": "GH",
-		"emoji": "🇬🇭",
-		"unicode": "U+1F1EC U+1F1ED",
-		"image": "GH.svg",
-		"dial_code": "+233"
-	},
-	{
-		"name": "Gibraltar",
-		"code": "GI",
-		"emoji": "🇬🇮",
-		"unicode": "U+1F1EC U+1F1EE",
-		"image": "GI.svg",
-		"dial_code": "+350"
-	},
-	{
-		"name": "Greenland",
-		"code": "GL",
-		"emoji": "🇬🇱",
-		"unicode": "U+1F1EC U+1F1F1",
-		"image": "GL.svg",
-		"dial_code": "+299"
-	},
-	{
-		"name": "Gambia",
-		"code": "GM",
-		"emoji": "🇬🇲",
-		"unicode": "U+1F1EC U+1F1F2",
-		"image": "GM.svg",
-		"dial_code": "+220"
-	},
-	{
-		"name": "Guinea",
-		"code": "GN",
-		"emoji": "🇬🇳",
-		"unicode": "U+1F1EC U+1F1F3",
-		"image": "GN.svg",
-		"dial_code": "+224"
-	},
-	{
-		"name": "Guadeloupe",
-		"code": "GP",
-		"emoji": "🇬🇵",
-		"unicode": "U+1F1EC U+1F1F5",
-		"image": "GP.svg",
-		"dial_code": "+590"
-	},
-	{
-		"name": "Equatorial Guinea",
-		"code": "GQ",
-		"emoji": "🇬🇶",
-		"unicode": "U+1F1EC U+1F1F6",
-		"image": "GQ.svg",
-		"dial_code": "+240"
-	},
-	{
-		"name": "Greece",
-		"code": "GR",
-		"emoji": "🇬🇷",
-		"unicode": "U+1F1EC U+1F1F7",
-		"image": "GR.svg",
-		"dial_code": "+30"
-	},
-	{
-		"name": "South Georgia & South Sandwich Islands",
-		"code": "GS",
-		"emoji": "🇬🇸",
-		"unicode": "U+1F1EC U+1F1F8",
-		"image": "GS.svg",
-		"dial_code": "+500"
-	},
-	{
-		"name": "Guatemala",
-		"code": "GT",
-		"emoji": "🇬🇹",
-		"unicode": "U+1F1EC U+1F1F9",
-		"image": "GT.svg",
-		"dial_code": "+502"
-	},
-	{
-		"name": "Guam",
-		"code": "GU",
-		"emoji": "🇬🇺",
-		"unicode": "U+1F1EC U+1F1FA",
-		"image": "GU.svg",
-		"dial_code": "+1671"
-	},
-	{
-		"name": "Guinea-Bissau",
-		"code": "GW",
-		"emoji": "🇬🇼",
-		"unicode": "U+1F1EC U+1F1FC",
-		"image": "GW.svg",
-		"dial_code": "+245"
-	},
-	{
-		"name": "Guyana",
-		"code": "GY",
-		"emoji": "🇬🇾",
-		"unicode": "U+1F1EC U+1F1FE",
-		"image": "GY.svg",
-		"dial_code": "+595"
-	},
-	{
-		"name": "Hong Kong SAR China",
-		"code": "HK",
-		"emoji": "🇭🇰",
-		"unicode": "U+1F1ED U+1F1F0",
-		"image": "HK.svg",
-		"dial_code": "+852"
-	},
-	{
-		"name": "Honduras",
-		"code": "HN",
-		"emoji": "🇭🇳",
-		"unicode": "U+1F1ED U+1F1F3",
-		"image": "HN.svg",
-		"dial_code": "+504"
-	},
-	{
-		"name": "Croatia",
-		"code": "HR",
-		"emoji": "🇭🇷",
-		"unicode": "U+1F1ED U+1F1F7",
-		"image": "HR.svg",
-		"dial_code": "+385"
-	},
-	{
-		"name": "Haiti",
-		"code": "HT",
-		"emoji": "🇭🇹",
-		"unicode": "U+1F1ED U+1F1F9",
-		"image": "HT.svg",
-		"dial_code": "+509"
-	},
-	{
-		"name": "Hungary",
-		"code": "HU",
-		"emoji": "🇭🇺",
-		"unicode": "U+1F1ED U+1F1FA",
-		"image": "HU.svg",
-		"dial_code": "+36"
-	},
-	{
-		"name": "Indonesia",
-		"code": "ID",
-		"emoji": "🇮🇩",
-		"unicode": "U+1F1EE U+1F1E9",
-		"image": "ID.svg",
-		"dial_code": "+62"
-	},
-	{
-		"name": "Ireland",
-		"code": "IE",
-		"emoji": "🇮🇪",
-		"unicode": "U+1F1EE U+1F1EA",
-		"image": "IE.svg",
-		"dial_code": "+353"
-	},
-	{
-		"name": "Israel",
-		"code": "IL",
-		"emoji": "🇮🇱",
-		"unicode": "U+1F1EE U+1F1F1",
-		"image": "IL.svg",
-		"dial_code": "+972"
-	},
-	{
-		"name": "Isle of Man",
-		"code": "IM",
-		"emoji": "🇮🇲",
-		"unicode": "U+1F1EE U+1F1F2",
-		"image": "IM.svg",
-		"dial_code": "+44"
-	},
-	{
-		"name": "India",
-		"code": "IN",
-		"emoji": "🇮🇳",
-		"unicode": "U+1F1EE U+1F1F3",
-		"image": "IN.svg",
-		"dial_code": "+91"
-	},
-	{
-		"name": "British Indian Ocean Territory",
-		"code": "IO",
-		"emoji": "🇮🇴",
-		"unicode": "U+1F1EE U+1F1F4",
-		"image": "IO.svg",
-		"dial_code": "+246"
-	},
-	{
-		"name": "Iraq",
-		"code": "IQ",
-		"emoji": "🇮🇶",
-		"unicode": "U+1F1EE U+1F1F6",
-		"image": "IQ.svg",
-		"dial_code": "+964"
-	},
-	{
-		"name": "Iran",
-		"code": "IR",
-		"emoji": "🇮🇷",
-		"unicode": "U+1F1EE U+1F1F7",
-		"image": "IR.svg",
-		"dial_code": "+98"
-	},
-	{
-		"name": "Iceland",
-		"code": "IS",
-		"emoji": "🇮🇸",
-		"unicode": "U+1F1EE U+1F1F8",
-		"image": "IS.svg",
-		"dial_code": "+354"
-	},
-	{
-		"name": "Italy",
-		"code": "IT",
-		"emoji": "🇮🇹",
-		"unicode": "U+1F1EE U+1F1F9",
-		"image": "IT.svg",
-		"dial_code": "+39"
-	},
-	{
-		"name": "Jersey",
-		"code": "JE",
-		"emoji": "🇯🇪",
-		"unicode": "U+1F1EF U+1F1EA",
-		"image": "JE.svg",
-		"dial_code": "+44"
-	},
-	{
-		"name": "Jamaica",
-		"code": "JM",
-		"emoji": "🇯🇲",
-		"unicode": "U+1F1EF U+1F1F2",
-		"image": "JM.svg",
-		"dial_code": "+1876"
-	},
-	{
-		"name": "Jordan",
-		"code": "JO",
-		"emoji": "🇯🇴",
-		"unicode": "U+1F1EF U+1F1F4",
-		"image": "JO.svg",
-		"dial_code": "+962"
-	},
-	{
-		"name": "Japan",
-		"code": "JP",
-		"emoji": "🇯🇵",
-		"unicode": "U+1F1EF U+1F1F5",
-		"image": "JP.svg",
-		"dial_code": "+81"
-	},
-	{
-		"name": "Kenya",
-		"code": "KE",
-		"emoji": "🇰🇪",
-		"unicode": "U+1F1F0 U+1F1EA",
-		"image": "KE.svg",
-		"dial_code": "+254"
-	},
-	{
-		"name": "Kyrgyzstan",
-		"code": "KG",
-		"emoji": "🇰🇬",
-		"unicode": "U+1F1F0 U+1F1EC",
-		"image": "KG.svg",
-		"dial_code": "+996"
-	},
-	{
-		"name": "Cambodia",
-		"code": "KH",
-		"emoji": "🇰🇭",
-		"unicode": "U+1F1F0 U+1F1ED",
-		"image": "KH.svg",
-		"dial_code": "+855"
-	},
-	{
-		"name": "Kiribati",
-		"code": "KI",
-		"emoji": "🇰🇮",
-		"unicode": "U+1F1F0 U+1F1EE",
-		"image": "KI.svg",
-		"dial_code": "+686"
-	},
-	{
-		"name": "Comoros",
-		"code": "KM",
-		"emoji": "🇰🇲",
-		"unicode": "U+1F1F0 U+1F1F2",
-		"image": "KM.svg",
-		"dial_code": "+269"
-	},
-	{
-		"name": "St. Kitts & Nevis",
-		"code": "KN",
-		"emoji": "🇰🇳",
-		"unicode": "U+1F1F0 U+1F1F3",
-		"image": "KN.svg",
-		"dial_code": "+1869"
-	},
-	{
-		"name": "North Korea",
-		"code": "KP",
-		"emoji": "🇰🇵",
-		"unicode": "U+1F1F0 U+1F1F5",
-		"image": "KP.svg",
-		"dial_code": "+850"
-	},
-	{
-		"name": "South Korea",
-		"code": "KR",
-		"emoji": "🇰🇷",
-		"unicode": "U+1F1F0 U+1F1F7",
-		"image": "KR.svg",
-		"dial_code": "+82"
-	},
-	{
-		"name": "Kuwait",
-		"code": "KW",
-		"emoji": "🇰🇼",
-		"unicode": "U+1F1F0 U+1F1FC",
-		"image": "KW.svg",
-		"dial_code": "+965"
-	},
-	{
-		"name": "Cayman Islands",
-		"code": "KY",
-		"emoji": "🇰🇾",
-		"unicode": "U+1F1F0 U+1F1FE",
-		"image": "KY.svg",
-		"dial_code": "+ 345"
-	},
-	{
-		"name": "Kazakhstan",
-		"code": "KZ",
-		"emoji": "🇰🇿",
-		"unicode": "U+1F1F0 U+1F1FF",
-		"image": "KZ.svg",
-		"dial_code": "+77"
-	},
-	{
-		"name": "Laos",
-		"code": "LA",
-		"emoji": "🇱🇦",
-		"unicode": "U+1F1F1 U+1F1E6",
-		"image": "LA.svg",
-		"dial_code": "+856"
-	},
-	{
-		"name": "Lebanon",
-		"code": "LB",
-		"emoji": "🇱🇧",
-		"unicode": "U+1F1F1 U+1F1E7",
-		"image": "LB.svg",
-		"dial_code": "+961"
-	},
-	{
-		"name": "St. Lucia",
-		"code": "LC",
-		"emoji": "🇱🇨",
-		"unicode": "U+1F1F1 U+1F1E8",
-		"image": "LC.svg",
-		"dial_code": "+1758"
-	},
-	{
-		"name": "Liechtenstein",
-		"code": "LI",
-		"emoji": "🇱🇮",
-		"unicode": "U+1F1F1 U+1F1EE",
-		"image": "LI.svg",
-		"dial_code": "+423"
-	},
-	{
-		"name": "Sri Lanka",
-		"code": "LK",
-		"emoji": "🇱🇰",
-		"unicode": "U+1F1F1 U+1F1F0",
-		"image": "LK.svg",
-		"dial_code": "+94"
-	},
-	{
-		"name": "Liberia",
-		"code": "LR",
-		"emoji": "🇱🇷",
-		"unicode": "U+1F1F1 U+1F1F7",
-		"image": "LR.svg",
-		"dial_code": "+231"
-	},
-	{
-		"name": "Lesotho",
-		"code": "LS",
-		"emoji": "🇱🇸",
-		"unicode": "U+1F1F1 U+1F1F8",
-		"image": "LS.svg",
-		"dial_code": "+266"
-	},
-	{
-		"name": "Lithuania",
-		"code": "LT",
-		"emoji": "🇱🇹",
-		"unicode": "U+1F1F1 U+1F1F9",
-		"image": "LT.svg",
-		"dial_code": "+370"
-	},
-	{
-		"name": "Luxembourg",
-		"code": "LU",
-		"emoji": "🇱🇺",
-		"unicode": "U+1F1F1 U+1F1FA",
-		"image": "LU.svg",
-		"dial_code": "+352"
-	},
-	{
-		"name": "Latvia",
-		"code": "LV",
-		"emoji": "🇱🇻",
-		"unicode": "U+1F1F1 U+1F1FB",
-		"image": "LV.svg",
-		"dial_code": "+371"
-	},
-	{
-		"name": "Libya",
-		"code": "LY",
-		"emoji": "🇱🇾",
-		"unicode": "U+1F1F1 U+1F1FE",
-		"image": "LY.svg",
-		"dial_code": "+218"
-	},
-	{
-		"name": "Morocco",
-		"code": "MA",
-		"emoji": "🇲🇦",
-		"unicode": "U+1F1F2 U+1F1E6",
-		"image": "MA.svg",
-		"dial_code": "+212"
-	},
-	{
-		"name": "Monaco",
-		"code": "MC",
-		"emoji": "🇲🇨",
-		"unicode": "U+1F1F2 U+1F1E8",
-		"image": "MC.svg",
-		"dial_code": "+377"
-	},
-	{
-		"name": "Moldova",
-		"code": "MD",
-		"emoji": "🇲🇩",
-		"unicode": "U+1F1F2 U+1F1E9",
-		"image": "MD.svg",
-		"dial_code": "+373"
-	},
-	{
-		"name": "Montenegro",
-		"code": "ME",
-		"emoji": "🇲🇪",
-		"unicode": "U+1F1F2 U+1F1EA",
-		"image": "ME.svg",
-		"dial_code": "+382"
-	},
-	{
-		"name": "St. Martin",
-		"code": "MF",
-		"emoji": "🇲🇫",
-		"unicode": "U+1F1F2 U+1F1EB",
-		"image": "MF.svg",
-		"dial_code": "+590"
-	},
-	{
-		"name": "Madagascar",
-		"code": "MG",
-		"emoji": "🇲🇬",
-		"unicode": "U+1F1F2 U+1F1EC",
-		"image": "MG.svg",
-		"dial_code": "+261"
-	},
-	{
-		"name": "Marshall Islands",
-		"code": "MH",
-		"emoji": "🇲🇭",
-		"unicode": "U+1F1F2 U+1F1ED",
-		"image": "MH.svg",
-		"dial_code": "+692"
-	},
-	{
-		"name": "North Macedonia",
-		"code": "MK",
-		"emoji": "🇲🇰",
-		"unicode": "U+1F1F2 U+1F1F0",
-		"image": "MK.svg",
-		"dial_code": "+389"
-	},
-	{
-		"name": "Mali",
-		"code": "ML",
-		"emoji": "🇲🇱",
-		"unicode": "U+1F1F2 U+1F1F1",
-		"image": "ML.svg",
-		"dial_code": "+223"
-	},
-	{
-		"name": "Myanmar (Burma)",
-		"code": "MM",
-		"emoji": "🇲🇲",
-		"unicode": "U+1F1F2 U+1F1F2",
-		"image": "MM.svg",
-		"dial_code": "+95"
-	},
-	{
-		"name": "Mongolia",
-		"code": "MN",
-		"emoji": "🇲🇳",
-		"unicode": "U+1F1F2 U+1F1F3",
-		"image": "MN.svg",
-		"dial_code": "+976"
-	},
-	{
-		"name": "Macao SAR China",
-		"code": "MO",
-		"emoji": "🇲🇴",
-		"unicode": "U+1F1F2 U+1F1F4",
-		"image": "MO.svg",
-		"dial_code": "+853"
-	},
-	{
-		"name": "Northern Mariana Islands",
-		"code": "MP",
-		"emoji": "🇲🇵",
-		"unicode": "U+1F1F2 U+1F1F5",
-		"image": "MP.svg",
-		"dial_code": "+1670"
-	},
-	{
-		"name": "Martinique",
-		"code": "MQ",
-		"emoji": "🇲🇶",
-		"unicode": "U+1F1F2 U+1F1F6",
-		"image": "MQ.svg",
-		"dial_code": "+596"
-	},
-	{
-		"name": "Mauritania",
-		"code": "MR",
-		"emoji": "🇲🇷",
-		"unicode": "U+1F1F2 U+1F1F7",
-		"image": "MR.svg",
-		"dial_code": "+222"
-	},
-	{
-		"name": "Montserrat",
-		"code": "MS",
-		"emoji": "🇲🇸",
-		"unicode": "U+1F1F2 U+1F1F8",
-		"image": "MS.svg",
-		"dial_code": "+1664"
-	},
-	{
-		"name": "Malta",
-		"code": "MT",
-		"emoji": "🇲🇹",
-		"unicode": "U+1F1F2 U+1F1F9",
-		"image": "MT.svg",
-		"dial_code": "+356"
-	},
-	{
-		"name": "Mauritius",
-		"code": "MU",
-		"emoji": "🇲🇺",
-		"unicode": "U+1F1F2 U+1F1FA",
-		"image": "MU.svg",
-		"dial_code": "+230"
-	},
-	{
-		"name": "Maldives",
-		"code": "MV",
-		"emoji": "🇲🇻",
-		"unicode": "U+1F1F2 U+1F1FB",
-		"image": "MV.svg",
-		"dial_code": "+960"
-	},
-	{
-		"name": "Malawi",
-		"code": "MW",
-		"emoji": "🇲🇼",
-		"unicode": "U+1F1F2 U+1F1FC",
-		"image": "MW.svg",
-		"dial_code": "+265"
-	},
-	{
-		"name": "Mexico",
-		"code": "MX",
-		"emoji": "🇲🇽",
-		"unicode": "U+1F1F2 U+1F1FD",
-		"image": "MX.svg",
-		"dial_code": "+52"
-	},
-	{
-		"name": "Malaysia",
-		"code": "MY",
-		"emoji": "🇲🇾",
-		"unicode": "U+1F1F2 U+1F1FE",
-		"image": "MY.svg",
-		"dial_code": "+60"
-	},
-	{
-		"name": "Mozambique",
-		"code": "MZ",
-		"emoji": "🇲🇿",
-		"unicode": "U+1F1F2 U+1F1FF",
-		"image": "MZ.svg",
-		"dial_code": "+258"
-	},
-	{
-		"name": "Namibia",
-		"code": "NA",
-		"emoji": "🇳🇦",
-		"unicode": "U+1F1F3 U+1F1E6",
-		"image": "NA.svg",
-		"dial_code": "+264"
-	},
-	{
-		"name": "New Caledonia",
-		"code": "NC",
-		"emoji": "🇳🇨",
-		"unicode": "U+1F1F3 U+1F1E8",
-		"image": "NC.svg",
-		"dial_code": "+687"
-	},
-	{
-		"name": "Niger",
-		"code": "NE",
-		"emoji": "🇳🇪",
-		"unicode": "U+1F1F3 U+1F1EA",
-		"image": "NE.svg",
-		"dial_code": "+227"
-	},
-	{
-		"name": "Norfolk Island",
-		"code": "NF",
-		"emoji": "🇳🇫",
-		"unicode": "U+1F1F3 U+1F1EB",
-		"image": "NF.svg",
-		"dial_code": "+672"
-	},
-	{
-		"name": "Nigeria",
-		"code": "NG",
-		"emoji": "🇳🇬",
-		"unicode": "U+1F1F3 U+1F1EC",
-		"image": "NG.svg",
-		"dial_code": "+234"
-	},
-	{
-		"name": "Nicaragua",
-		"code": "NI",
-		"emoji": "🇳🇮",
-		"unicode": "U+1F1F3 U+1F1EE",
-		"image": "NI.svg",
-		"dial_code": "+505"
-	},
-	{
-		"name": "Netherlands",
-		"code": "NL",
-		"emoji": "🇳🇱",
-		"unicode": "U+1F1F3 U+1F1F1",
-		"image": "NL.svg",
-		"dial_code": "+31"
-	},
-	{
-		"name": "Norway",
-		"code": "NO",
-		"emoji": "🇳🇴",
-		"unicode": "U+1F1F3 U+1F1F4",
-		"image": "NO.svg",
-		"dial_code": "+47"
-	},
-	{
-		"name": "Nepal",
-		"code": "NP",
-		"emoji": "🇳🇵",
-		"unicode": "U+1F1F3 U+1F1F5",
-		"image": "NP.svg",
-		"dial_code": "+977"
-	},
-	{
-		"name": "Nauru",
-		"code": "NR",
-		"emoji": "🇳🇷",
-		"unicode": "U+1F1F3 U+1F1F7",
-		"image": "NR.svg",
-		"dial_code": "+674"
-	},
-	{
-		"name": "Niue",
-		"code": "NU",
-		"emoji": "🇳🇺",
-		"unicode": "U+1F1F3 U+1F1FA",
-		"image": "NU.svg",
-		"dial_code": "+683"
-	},
-	{
-		"name": "New Zealand",
-		"code": "NZ",
-		"emoji": "🇳🇿",
-		"unicode": "U+1F1F3 U+1F1FF",
-		"image": "NZ.svg",
-		"dial_code": "+64"
-	},
-	{
-		"name": "Oman",
-		"code": "OM",
-		"emoji": "🇴🇲",
-		"unicode": "U+1F1F4 U+1F1F2",
-		"image": "OM.svg",
-		"dial_code": "+968"
-	},
-	{
-		"name": "Panama",
-		"code": "PA",
-		"emoji": "🇵🇦",
-		"unicode": "U+1F1F5 U+1F1E6",
-		"image": "PA.svg",
-		"dial_code": "+507"
-	},
-	{
-		"name": "Peru",
-		"code": "PE",
-		"emoji": "🇵🇪",
-		"unicode": "U+1F1F5 U+1F1EA",
-		"image": "PE.svg",
-		"dial_code": "+51"
-	},
-	{
-		"name": "French Polynesia",
-		"code": "PF",
-		"emoji": "🇵🇫",
-		"unicode": "U+1F1F5 U+1F1EB",
-		"image": "PF.svg",
-		"dial_code": "+689"
-	},
-	{
-		"name": "Papua New Guinea",
-		"code": "PG",
-		"emoji": "🇵🇬",
-		"unicode": "U+1F1F5 U+1F1EC",
-		"image": "PG.svg",
-		"dial_code": "+675"
-	},
-	{
-		"name": "Philippines",
-		"code": "PH",
-		"emoji": "🇵🇭",
-		"unicode": "U+1F1F5 U+1F1ED",
-		"image": "PH.svg",
-		"dial_code": "+63"
-	},
-	{
-		"name": "Pakistan",
-		"code": "PK",
-		"emoji": "🇵🇰",
-		"unicode": "U+1F1F5 U+1F1F0",
-		"image": "PK.svg",
-		"dial_code": "+92"
-	},
-	{
-		"name": "Poland",
-		"code": "PL",
-		"emoji": "🇵🇱",
-		"unicode": "U+1F1F5 U+1F1F1",
-		"image": "PL.svg",
-		"dial_code": "+48"
-	},
-	{
-		"name": "St. Pierre & Miquelon",
-		"code": "PM",
-		"emoji": "🇵🇲",
-		"unicode": "U+1F1F5 U+1F1F2",
-		"image": "PM.svg",
-		"dial_code": "+508"
-	},
-	{
-		"name": "Pitcairn Islands",
-		"code": "PN",
-		"emoji": "🇵🇳",
-		"unicode": "U+1F1F5 U+1F1F3",
-		"image": "PN.svg",
-		"dial_code": "+872"
-	},
-	{
-		"name": "Puerto Rico",
-		"code": "PR",
-		"emoji": "🇵🇷",
-		"unicode": "U+1F1F5 U+1F1F7",
-		"image": "PR.svg",
-		"dial_code": "+1939"
-	},
-	{
-		"name": "Palestinian Territories",
-		"code": "PS",
-		"emoji": "🇵🇸",
-		"unicode": "U+1F1F5 U+1F1F8",
-		"image": "PS.svg",
-		"dial_code": "+970"
-	},
-	{
-		"name": "Portugal",
-		"code": "PT",
-		"emoji": "🇵🇹",
-		"unicode": "U+1F1F5 U+1F1F9",
-		"image": "PT.svg",
-		"dial_code": "+351"
-	},
-	{
-		"name": "Palau",
-		"code": "PW",
-		"emoji": "🇵🇼",
-		"unicode": "U+1F1F5 U+1F1FC",
-		"image": "PW.svg",
-		"dial_code": "+680"
-	},
-	{
-		"name": "Paraguay",
-		"code": "PY",
-		"emoji": "🇵🇾",
-		"unicode": "U+1F1F5 U+1F1FE",
-		"image": "PY.svg",
-		"dial_code": "+595"
-	},
-	{
-		"name": "Qatar",
-		"code": "QA",
-		"emoji": "🇶🇦",
-		"unicode": "U+1F1F6 U+1F1E6",
-		"image": "QA.svg",
-		"dial_code": "+974"
-	},
-	{
-		"name": "Réunion",
-		"code": "RE",
-		"emoji": "🇷🇪",
-		"unicode": "U+1F1F7 U+1F1EA",
-		"image": "RE.svg",
-		"dial_code": "+262"
-	},
-	{
-		"name": "Romania",
-		"code": "RO",
-		"emoji": "🇷🇴",
-		"unicode": "U+1F1F7 U+1F1F4",
-		"image": "RO.svg",
-		"dial_code": "+40"
-	},
-	{
-		"name": "Serbia",
-		"code": "RS",
-		"emoji": "🇷🇸",
-		"unicode": "U+1F1F7 U+1F1F8",
-		"image": "RS.svg",
-		"dial_code": "+381"
-	},
-	{
-		"name": "Russia",
-		"code": "RU",
-		"emoji": "🇷🇺",
-		"unicode": "U+1F1F7 U+1F1FA",
-		"image": "RU.svg",
-		"dial_code": "+7"
-	},
-	{
-		"name": "Rwanda",
-		"code": "RW",
-		"emoji": "🇷🇼",
-		"unicode": "U+1F1F7 U+1F1FC",
-		"image": "RW.svg",
-		"dial_code": "+250"
-	},
-	{
-		"name": "Saudi Arabia",
-		"code": "SA",
-		"emoji": "🇸🇦",
-		"unicode": "U+1F1F8 U+1F1E6",
-		"image": "SA.svg",
-		"dial_code": "+966"
-	},
-	{
-		"name": "Solomon Islands",
-		"code": "SB",
-		"emoji": "🇸🇧",
-		"unicode": "U+1F1F8 U+1F1E7",
-		"image": "SB.svg",
-		"dial_code": "+677"
-	},
-	{
-		"name": "Seychelles",
-		"code": "SC",
-		"emoji": "🇸🇨",
-		"unicode": "U+1F1F8 U+1F1E8",
-		"image": "SC.svg",
-		"dial_code": "+248"
-	},
-	{
-		"name": "Sudan",
-		"code": "SD",
-		"emoji": "🇸🇩",
-		"unicode": "U+1F1F8 U+1F1E9",
-		"image": "SD.svg",
-		"dial_code": "+249"
-	},
-	{
-		"name": "Sweden",
-		"code": "SE",
-		"emoji": "🇸🇪",
-		"unicode": "U+1F1F8 U+1F1EA",
-		"image": "SE.svg",
-		"dial_code": "+46"
-	},
-	{
-		"name": "Singapore",
-		"code": "SG",
-		"emoji": "🇸🇬",
-		"unicode": "U+1F1F8 U+1F1EC",
-		"image": "SG.svg",
-		"dial_code": "+65"
-	},
-	{
-		"name": "St. Helena",
-		"code": "SH",
-		"emoji": "🇸🇭",
-		"unicode": "U+1F1F8 U+1F1ED",
-		"image": "SH.svg",
-		"dial_code": "+290"
-	},
-	{
-		"name": "Slovenia",
-		"code": "SI",
-		"emoji": "🇸🇮",
-		"unicode": "U+1F1F8 U+1F1EE",
-		"image": "SI.svg",
-		"dial_code": "+386"
-	},
-	{
-		"name": "Svalbard & Jan Mayen",
-		"code": "SJ",
-		"emoji": "🇸🇯",
-		"unicode": "U+1F1F8 U+1F1EF",
-		"image": "SJ.svg",
-		"dial_code": "+47"
-	},
-	{
-		"name": "Slovakia",
-		"code": "SK",
-		"emoji": "🇸🇰",
-		"unicode": "U+1F1F8 U+1F1F0",
-		"image": "SK.svg",
-		"dial_code": "+421"
-	},
-	{
-		"name": "Sierra Leone",
-		"code": "SL",
-		"emoji": "🇸🇱",
-		"unicode": "U+1F1F8 U+1F1F1",
-		"image": "SL.svg",
-		"dial_code": "+232"
-	},
-	{
-		"name": "San Marino",
-		"code": "SM",
-		"emoji": "🇸🇲",
-		"unicode": "U+1F1F8 U+1F1F2",
-		"image": "SM.svg",
-		"dial_code": "+378"
-	},
-	{
-		"name": "Senegal",
-		"code": "SN",
-		"emoji": "🇸🇳",
-		"unicode": "U+1F1F8 U+1F1F3",
-		"image": "SN.svg",
-		"dial_code": "+221"
-	},
-	{
-		"name": "Somalia",
-		"code": "SO",
-		"emoji": "🇸🇴",
-		"unicode": "U+1F1F8 U+1F1F4",
-		"image": "SO.svg",
-		"dial_code": "+252"
-	},
-	{
-		"name": "Suriname",
-		"code": "SR",
-		"emoji": "🇸🇷",
-		"unicode": "U+1F1F8 U+1F1F7",
-		"image": "SR.svg",
-		"dial_code": "+597"
-	},
-	{
-		"name": "South Sudan",
-		"code": "SS",
-		"emoji": "🇸🇸",
-		"unicode": "U+1F1F8 U+1F1F8",
-		"image": "SS.svg",
-		"dial_code": "+211"
-	},
-	{
-		"name": "São Tomé & Príncipe",
-		"code": "ST",
-		"emoji": "🇸🇹",
-		"unicode": "U+1F1F8 U+1F1F9",
-		"image": "ST.svg",
-		"dial_code": "+239"
-	},
-	{
-		"name": "El Salvador",
-		"code": "SV",
-		"emoji": "🇸🇻",
-		"unicode": "U+1F1F8 U+1F1FB",
-		"image": "SV.svg",
-		"dial_code": "+503"
-	},
-	{
-		"name": "Syria",
-		"code": "SY",
-		"emoji": "🇸🇾",
-		"unicode": "U+1F1F8 U+1F1FE",
-		"image": "SY.svg",
-		"dial_code": "+963"
-	},
-	{
-		"name": "Eswatini",
-		"code": "SZ",
-		"emoji": "🇸🇿",
-		"unicode": "U+1F1F8 U+1F1FF",
-		"image": "SZ.svg",
-		"dial_code": "+268"
-	},
-	{
-		"name": "Turks & Caicos Islands",
-		"code": "TC",
-		"emoji": "🇹🇨",
-		"unicode": "U+1F1F9 U+1F1E8",
-		"image": "TC.svg",
-		"dial_code": "+1649"
-	},
-	{
-		"name": "Chad",
-		"code": "TD",
-		"emoji": "🇹🇩",
-		"unicode": "U+1F1F9 U+1F1E9",
-		"image": "TD.svg",
-		"dial_code": "+235"
-	},
-	{
-		"name": "Togo",
-		"code": "TG",
-		"emoji": "🇹🇬",
-		"unicode": "U+1F1F9 U+1F1EC",
-		"image": "TG.svg",
-		"dial_code": "+228"
-	},
-	{
-		"name": "Thailand",
-		"code": "TH",
-		"emoji": "🇹🇭",
-		"unicode": "U+1F1F9 U+1F1ED",
-		"image": "TH.svg",
-		"dial_code": "+66"
-	},
-	{
-		"name": "Tajikistan",
-		"code": "TJ",
-		"emoji": "🇹🇯",
-		"unicode": "U+1F1F9 U+1F1EF",
-		"image": "TJ.svg",
-		"dial_code": "+992"
-	},
-	{
-		"name": "Tokelau",
-		"code": "TK",
-		"emoji": "🇹🇰",
-		"unicode": "U+1F1F9 U+1F1F0",
-		"image": "TK.svg",
-		"dial_code": "+690"
-	},
-	{
-		"name": "Timor-Leste",
-		"code": "TL",
-		"emoji": "🇹🇱",
-		"unicode": "U+1F1F9 U+1F1F1",
-		"image": "TL.svg",
-		"dial_code": "+670"
-	},
-	{
-		"name": "Turkmenistan",
-		"code": "TM",
-		"emoji": "🇹🇲",
-		"unicode": "U+1F1F9 U+1F1F2",
-		"image": "TM.svg",
-		"dial_code": "+993"
-	},
-	{
-		"name": "Tunisia",
-		"code": "TN",
-		"emoji": "🇹🇳",
-		"unicode": "U+1F1F9 U+1F1F3",
-		"image": "TN.svg",
-		"dial_code": "+216"
-	},
-	{
-		"name": "Tonga",
-		"code": "TO",
-		"emoji": "🇹🇴",
-		"unicode": "U+1F1F9 U+1F1F4",
-		"image": "TO.svg",
-		"dial_code": "+676"
-	},
-	{
-		"name": "Turkey",
-		"code": "TR",
-		"emoji": "🇹🇷",
-		"unicode": "U+1F1F9 U+1F1F7",
-		"image": "TR.svg",
-		"dial_code": "+90"
-	},
-	{
-		"name": "Trinidad & Tobago",
-		"code": "TT",
-		"emoji": "🇹🇹",
-		"unicode": "U+1F1F9 U+1F1F9",
-		"image": "TT.svg",
-		"dial_code": "+1868"
-	},
-	{
-		"name": "Tuvalu",
-		"code": "TV",
-		"emoji": "🇹🇻",
-		"unicode": "U+1F1F9 U+1F1FB",
-		"image": "TV.svg",
-		"dial_code": "+688"
-	},
-	{
-		"name": "Taiwan",
-		"code": "TW",
-		"emoji": "🇹🇼",
-		"unicode": "U+1F1F9 U+1F1FC",
-		"image": "TW.svg",
-		"dial_code": "+886"
-	},
-	{
-		"name": "Tanzania",
-		"code": "TZ",
-		"emoji": "🇹🇿",
-		"unicode": "U+1F1F9 U+1F1FF",
-		"image": "TZ.svg",
-		"dial_code": "+255"
-	},
-	{
-		"name": "Ukraine",
-		"code": "UA",
-		"emoji": "🇺🇦",
-		"unicode": "U+1F1FA U+1F1E6",
-		"image": "UA.svg",
-		"dial_code": "+380"
-	},
-	{
-		"name": "Uganda",
-		"code": "UG",
-		"emoji": "🇺🇬",
-		"unicode": "U+1F1FA U+1F1EC",
-		"image": "UG.svg",
-		"dial_code": "+256"
-	},
-	{
-		"name": "United States",
-		"code": "US",
-		"emoji": "🇺🇸",
-		"unicode": "U+1F1FA U+1F1F8",
-		"image": "US.svg",
-		"dial_code": "+1"
-	},
-	{
-		"name": "Uruguay",
-		"code": "UY",
-		"emoji": "🇺🇾",
-		"unicode": "U+1F1FA U+1F1FE",
-		"image": "UY.svg",
-		"dial_code": "+598"
-	},
-	{
-		"name": "Uzbekistan",
-		"code": "UZ",
-		"emoji": "🇺🇿",
-		"unicode": "U+1F1FA U+1F1FF",
-		"image": "UZ.svg",
-		"dial_code": "+998"
-	},
-	{
-		"name": "Vatican City",
-		"code": "VA",
-		"emoji": "🇻🇦",
-		"unicode": "U+1F1FB U+1F1E6",
-		"image": "VA.svg",
-		"dial_code": "+379"
-	},
-	{
-		"name": "St. Vincent & Grenadines",
-		"code": "VC",
-		"emoji": "🇻🇨",
-		"unicode": "U+1F1FB U+1F1E8",
-		"image": "VC.svg",
-		"dial_code": "+1784"
-	},
-	{
-		"name": "Venezuela",
-		"code": "VE",
-		"emoji": "🇻🇪",
-		"unicode": "U+1F1FB U+1F1EA",
-		"image": "VE.svg",
-		"dial_code": "+58"
-	},
-	{
-		"name": "British Virgin Islands",
-		"code": "VG",
-		"emoji": "🇻🇬",
-		"unicode": "U+1F1FB U+1F1EC",
-		"image": "VG.svg",
-		"dial_code": "+1284"
-	},
-	{
-		"name": "U.S. Virgin Islands",
-		"code": "VI",
-		"emoji": "🇻🇮",
-		"unicode": "U+1F1FB U+1F1EE",
-		"image": "VI.svg",
-		"dial_code": "+1340"
-	},
-	{
-		"name": "Vietnam",
-		"code": "VN",
-		"emoji": "🇻🇳",
-		"unicode": "U+1F1FB U+1F1F3",
-		"image": "VN.svg",
-		"dial_code": "+84"
-	},
-	{
-		"name": "Vanuatu",
-		"code": "VU",
-		"emoji": "🇻🇺",
-		"unicode": "U+1F1FB U+1F1FA",
-		"image": "VU.svg",
-		"dial_code": "+678"
-	},
-	{
-		"name": "Wallis & Futuna",
-		"code": "WF",
-		"emoji": "🇼🇫",
-		"unicode": "U+1F1FC U+1F1EB",
-		"image": "WF.svg",
-		"dial_code": "+681"
-	},
-	{
-		"name": "Samoa",
-		"code": "WS",
-		"emoji": "🇼🇸",
-		"unicode": "U+1F1FC U+1F1F8",
-		"image": "WS.svg",
-		"dial_code": "+685"
-	},
-	{
-		"name": "Yemen",
-		"code": "YE",
-		"emoji": "🇾🇪",
-		"unicode": "U+1F1FE U+1F1EA",
-		"image": "YE.svg",
-		"dial_code": "+967"
-	},
-	{
-		"name": "Mayotte",
-		"code": "YT",
-		"emoji": "🇾🇹",
-		"unicode": "U+1F1FE U+1F1F9",
-		"image": "YT.svg",
-		"dial_code": "+262"
-	},
-	{
-		"name": "South Africa",
-		"code": "ZA",
-		"emoji": "🇿🇦",
-		"unicode": "U+1F1FF U+1F1E6",
-		"image": "ZA.svg",
-		"dial_code": "+27"
-	},
-	{
-		"name": "Zambia",
-		"code": "ZM",
-		"emoji": "🇿🇲",
-		"unicode": "U+1F1FF U+1F1F2",
-		"image": "ZM.svg",
-		"dial_code": "+260"
-	},
-	{
-		"name": "Zimbabwe",
-		"code": "ZW",
-		"emoji": "🇿🇼",
-		"unicode": "U+1F1FF U+1F1FC",
-		"image": "ZW.svg",
-		"dial_code": "+263"
-	}
+  {
+    "name": "Afghanistan",
+    "code": "+93",
+    "iso": "AF",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/af.svg",
+    "mask": "##-###-####"
+  },
+  {
+    "name": "Aland Islands",
+    "code": "+358",
+    "iso": "AX",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ax.svg",
+    "mask": "(###)###-##-##"
+  },
+  {
+    "name": "Albania",
+    "code": "+355",
+    "iso": "AL",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/al.svg",
+    "mask": "(###)###-###"
+  },
+  {
+    "name": "Algeria",
+    "code": "+213",
+    "iso": "DZ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/dz.svg",
+    "mask": "##-###-####"
+  },
+  {
+    "name": "American Samoa",
+    "code": "+1",
+    "iso": "AS",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/as.svg",
+    "mask": "(684)###-####"
+  },
+  {
+    "name": "Andorra",
+    "code": "+376",
+    "iso": "AD",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ad.svg",
+    "mask": "###-###"
+  },
+  {
+    "name": "Angola",
+    "code": "+244",
+    "iso": "AO",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ao.svg",
+    "mask": "(###)###-###"
+  },
+  {
+    "name": "Anguilla",
+    "code": "+1",
+    "iso": "AI",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ai.svg",
+    "mask": "(264)###-####"
+  },
+  {
+    "name": "Antarctica",
+    "code": "+672",
+    "iso": "AQ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/aq.svg",
+    "mask": "1##-###"
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "code": "+1",
+    "iso": "AG",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ag.svg",
+    "mask": "(268)###-####"
+  },
+  {
+    "name": "Argentina",
+    "code": "+54",
+    "iso": "AR",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ar.svg",
+    "mask": "(###)###-####"
+  },
+  {
+    "name": "Armenia",
+    "code": "+374",
+    "iso": "AM",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/am.svg",
+    "mask": "##-###-###"
+  },
+  {
+    "name": "Aruba",
+    "code": "+297",
+    "iso": "AW",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/aw.svg",
+    "mask": "###-####"
+  },
+  {
+    "name": "Ascension Island",
+    "code": "+247",
+    "iso": "AC",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sh.svg",
+    "mask": "####"
+  },
+  {
+    "name": "Australia",
+    "code": "+61",
+    "iso": "AU",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/au.svg",
+    "mask": "#-####-####"
+  },
+  {
+    "name": "Austria",
+    "code": "+43",
+    "iso": "AT",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/at.svg",
+    "mask": "(###)###-####"
+  },
+  {
+    "name": "Azerbaijan",
+    "code": "+994",
+    "iso": "AZ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/az.svg",
+    "mask": "##-###-##-##"
+  },
+  {
+    "name": "Bahamas",
+    "code": "+1",
+    "iso": "BS",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/bs.svg",
+    "mask": "(242)###-####"
+  },
+  {
+    "name": "Bahrain",
+    "code": "+973",
+    "iso": "BH",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/bh.svg",
+    "mask": "####-####"
+  },
+  {
+    "name": "Bangladesh",
+    "code": "+880",
+    "iso": "BD",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/bd.svg",
+    "mask": "1###-######"
+  },
+  {
+    "name": "Barbados",
+    "code": "+1",
+    "iso": "BB",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/bb.svg",
+    "mask": "(246)###-####"
+  },
+  {
+    "name": "Belarus",
+    "code": "+375",
+    "iso": "BY",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/by.svg",
+    "mask": "(##)###-##-##"
+  },
+  {
+    "name": "Belgium",
+    "code": "+32",
+    "iso": "BE",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/be.svg",
+    "mask": "(###)###-###"
+  },
+  {
+    "name": "Belize",
+    "code": "+501",
+    "iso": "BZ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/bz.svg",
+    "mask": "###-####"
+  },
+  {
+    "name": "Benin",
+    "code": "+229",
+    "iso": "BJ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/bj.svg",
+    "mask": "##-##-####"
+  },
+  {
+    "name": "Bermuda",
+    "code": "+1",
+    "iso": "BM",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/bm.svg",
+    "mask": "(441)###-####"
+  },
+  {
+    "name": "Bhutan",
+    "code": "+975",
+    "iso": "BT",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/bt.svg",
+    "mask": [
+      "17-###-###",
+      "77-###-###",
+      "#-###-###"
+    ]
+  },
+  {
+    "name": "Bolivia",
+    "code": "+591",
+    "iso": "BO",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/bo.svg",
+    "mask": "#-###-####"
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "code": "+387",
+    "iso": "BA",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ba.svg",
+    "mask": [
+      "##-####",
+      "##-#####"
+    ]
+  },
+  {
+    "name": "Botswana",
+    "code": "+267",
+    "iso": "BW",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/bw.svg",
+    "mask": "##-###-###"
+  },
+  {
+    "name": "Brazil",
+    "code": "+55",
+    "iso": "BR",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/br.svg",
+    "mask": [
+      "(##)####-####",
+      "(##)#####-####"
+    ]
+  },
+  {
+    "name": "British Indian Ocean Territory",
+    "code": "+246",
+    "iso": "IO",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/io.svg",
+    "mask": "###-####"
+  },
+  {
+    "name": "Brunei Darussalam",
+    "code": "+673",
+    "iso": "BN",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/bn.svg",
+    "mask": "###-####"
+  },
+  {
+    "name": "Bulgaria",
+    "code": "+359",
+    "iso": "BG",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/bg.svg",
+    "mask": "(###)###-###"
+  },
+  {
+    "name": "Burkina Faso",
+    "code": "+226",
+    "iso": "BF",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/bf.svg",
+    "mask": "##-##-####"
+  },
+  {
+    "name": "Burundi",
+    "code": "+257",
+    "iso": "BI",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/bi.svg",
+    "mask": "##-##-####"
+  },
+  {
+    "name": "Cambodia",
+    "code": "+855",
+    "iso": "KH",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/kh.svg",
+    "mask": "##-###-###"
+  },
+  {
+    "name": "Cameroon",
+    "code": "+237",
+    "iso": "CM",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/cm.svg",
+    "mask": "####-####"
+  },
+  {
+    "name": "Canada",
+    "code": "+1",
+    "iso": "CA",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ca.svg",
+    "mask": "(###)###-####"
+  },
+  {
+    "name": "Cape Verde",
+    "code": "+238",
+    "iso": "CV",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/cv.svg",
+    "mask": "(###)##-##"
+  },
+  {
+    "name": "Cayman Islands",
+    "code": "+1",
+    "iso": "KY",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ky.svg",
+    "mask": "(345)###-####"
+  },
+  {
+    "name": "Central African Republic",
+    "code": "+236",
+    "iso": "CF",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/cf.svg",
+    "mask": "##-##-####"
+  },
+  {
+    "name": "Chad",
+    "code": "+235",
+    "iso": "TD",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/td.svg",
+    "mask": "##-##-##-##"
+  },
+  {
+    "name": "Chile",
+    "code": "+56",
+    "iso": "CL",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/cl.svg",
+    "mask": "#-####-####"
+  },
+  {
+    "name": "China",
+    "code": "+86",
+    "iso": "CN",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/cn.svg",
+    "mask": [
+      "(###)####-###",
+      "(###)####-####",
+      "##-#####-#####"
+    ]
+  },
+  {
+    "name": "Christmas Island",
+    "code": "+61",
+    "iso": "CX",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/cx.svg",
+    "mask": "#-####-####"
+  },
+  {
+    "name": "Cocos (Keeling) Islands",
+    "code": "+61",
+    "iso": "CC",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/cc.svg",
+    "mask": "#-####-####"
+  },
+  {
+    "name": "Colombia",
+    "code": "+57",
+    "iso": "CO",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/co.svg",
+    "mask": "(###)###-####"
+  },
+  {
+    "name": "Comoros",
+    "code": "+269",
+    "iso": "KM",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/km.svg",
+    "mask": "##-#####"
+  },
+  {
+    "name": "Congo",
+    "code": "+242",
+    "iso": "CG",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/cg.svg",
+    "mask": "##-#####"
+  },
+  {
+    "name": "Cook Islands",
+    "code": "+682",
+    "iso": "CK",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ck.svg",
+    "mask": "##-###"
+  },
+  {
+    "name": "Costa Rica",
+    "code": "+506",
+    "iso": "CR",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/cr.svg",
+    "mask": "####-####"
+  },
+  {
+    "name": "Croatia",
+    "code": "+385",
+    "iso": "HR",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/hr.svg",
+    "mask": "##-###-###"
+  },
+  {
+    "name": "Cuba",
+    "code": "+53",
+    "iso": "CU",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/cu.svg",
+    "mask": "#-###-####"
+  },
+  {
+    "name": "Cyprus",
+    "code": "+357",
+    "iso": "CY",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/cy.svg",
+    "mask": "##-###-###"
+  },
+  {
+    "name": "Czech Republic",
+    "code": "+420",
+    "iso": "CZ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/cz.svg",
+    "mask": "(###)###-###"
+  },
+  {
+    "name": "Democratic Republic of the Congo",
+    "code": "+243",
+    "iso": "CD",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/cd.svg",
+    "mask": "(###)###-###"
+  },
+  {
+    "name": "Denmark",
+    "code": "+45",
+    "iso": "DK",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/dk.svg",
+    "mask": "##-##-##-##"
+  },
+  {
+    "name": "Djibouti",
+    "code": "+253",
+    "iso": "DJ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/dj.svg",
+    "mask": "##-##-##-##"
+  },
+  {
+    "name": "Dominica",
+    "code": "+1",
+    "iso": "DM",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/dm.svg",
+    "mask": "(767)###-####"
+  },
+  {
+    "name": "Dominican Republic",
+    "code": "+1",
+    "iso": "DO",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/do.svg",
+    "mask": [
+      "(809)###-####",
+      "(829)###-####",
+      "(849)###-####"
+    ]
+  },
+  {
+    "name": "Ecuador",
+    "code": "+593",
+    "iso": "EC",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ec.svg",
+    "mask": [
+      "#-###-####",
+      "##-###-####"
+    ]
+  },
+  {
+    "name": "Egypt",
+    "code": "+20",
+    "iso": "EG",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/eg.svg",
+    "mask": "(###)###-####"
+  },
+  {
+    "name": "El Salvador",
+    "code": "+503",
+    "iso": "SV",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sv.svg",
+    "mask": "##-##-####"
+  },
+  {
+    "name": "Equatorial Guinea",
+    "code": "+240",
+    "iso": "GQ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gq.svg",
+    "mask": "##-###-####"
+  },
+  {
+    "name": "Eritrea",
+    "code": "+291",
+    "iso": "ER",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/er.svg",
+    "mask": "#-###-###"
+  },
+  {
+    "name": "Estonia",
+    "code": "+372",
+    "iso": "EE",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ee.svg",
+    "mask": [
+      "###-####",
+      "####-####"
+    ]
+  },
+  {
+    "name": "Eswatini",
+    "code": "+268",
+    "iso": "SZ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sz.svg",
+    "mask": "##-##-####"
+  },
+  {
+    "name": "Ethiopia",
+    "code": "+251",
+    "iso": "ET",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/et.svg",
+    "mask": "##-###-####"
+  },
+  {
+    "name": "Falkland Islands (Malvinas)",
+    "code": "+500",
+    "iso": "FK",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/fk.svg",
+    "mask": "#####"
+  },
+  {
+    "name": "Faroe Islands",
+    "code": "+298",
+    "iso": "FO",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/fo.svg",
+    "mask": "###-###"
+  },
+  {
+    "name": "Fiji",
+    "code": "+679",
+    "iso": "FJ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/fj.svg",
+    "mask": "##-#####"
+  },
+  {
+    "name": "Finland",
+    "code": "+358",
+    "iso": "FI",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/fi.svg",
+    "mask": "(###)###-##-##"
+  },
+  {
+    "name": "France",
+    "code": "+33",
+    "iso": "FR",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/fr.svg",
+    "mask": "(###)###-###"
+  },
+  {
+    "name": "French Guiana",
+    "code": "+594",
+    "iso": "GF",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gf.svg",
+    "mask": "#####-####"
+  },
+  {
+    "name": "French Polynesia",
+    "code": "+689",
+    "iso": "PF",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/pf.svg",
+    "mask": "##-##-##"
+  },
+  {
+    "name": "Gabon",
+    "code": "+241",
+    "iso": "GA",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ga.svg",
+    "mask": "#-##-##-##"
+  },
+  {
+    "name": "Gambia",
+    "code": "+220",
+    "iso": "GM",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gm.svg",
+    "mask": "(###)##-##"
+  },
+  {
+    "name": "Georgia",
+    "code": "+995",
+    "iso": "GE",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ge.svg",
+    "mask": "(###)###-###"
+  },
+  {
+    "name": "Germany",
+    "code": "+49",
+    "iso": "DE",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/de.svg",
+    "mask": [
+      "###-###",
+      "(###)##-##",
+      "(###)##-###",
+      "(###)##-####",
+      "(###)###-####",
+      "(####)###-####"
+    ]
+  },
+  {
+    "name": "Ghana",
+    "code": "+233",
+    "iso": "GH",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gh.svg",
+    "mask": "(###)###-###"
+  },
+  {
+    "name": "Gibraltar",
+    "code": "+350",
+    "iso": "GI",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gi.svg",
+    "mask": "###-#####"
+  },
+  {
+    "name": "Greece",
+    "code": "+30",
+    "iso": "GR",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gr.svg",
+    "mask": "(###)###-####"
+  },
+  {
+    "name": "Greenland",
+    "code": "+299",
+    "iso": "GL",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gl.svg",
+    "mask": "##-##-##"
+  },
+  {
+    "name": "Grenada",
+    "code": "+1",
+    "iso": "GD",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gd.svg",
+    "mask": "(473)###-####"
+  },
+  {
+    "name": "Guadeloupe",
+    "code": "+590",
+    "iso": "GP",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gp.svg",
+    "mask": "(###)###-###"
+  },
+  {
+    "name": "Guam",
+    "code": "+1",
+    "iso": "GU",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gu.svg",
+    "mask": "(671)###-####"
+  },
+  {
+    "name": "Guatemala",
+    "code": "+502",
+    "iso": "GT",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gt.svg",
+    "mask": "#-###-####"
+  },
+  {
+    "name": "Guernsey",
+    "code": "+44",
+    "iso": "GG",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gg.svg",
+    "mask": "(####)######"
+  },
+  {
+    "name": "Guinea",
+    "code": "+224",
+    "iso": "GN",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gn.svg",
+    "mask": "##-###-###"
+  },
+  {
+    "name": "Guinea-Bissau",
+    "code": "+245",
+    "iso": "GW",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gw.svg",
+    "mask": "#-######"
+  },
+  {
+    "name": "Guyana",
+    "code": "+592",
+    "iso": "GY",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gy.svg",
+    "mask": "###-####"
+  },
+  {
+    "name": "Haiti",
+    "code": "+509",
+    "iso": "HT",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ht.svg",
+    "mask": "##-##-####"
+  },
+  {
+    "name": "Holy See (Vatican City State)",
+    "code": "+39",
+    "iso": "VA",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/va.svg",
+    "mask": "06 698#####"
+  },
+  {
+    "name": "Honduras",
+    "code": "+504",
+    "iso": "HN",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/hn.svg",
+    "mask": "####-####"
+  },
+  {
+    "name": "Hong Kong",
+    "code": "+852",
+    "iso": "HK",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/hk.svg",
+    "mask": "####-####"
+  },
+  {
+    "name": "Hungary",
+    "code": "+36",
+    "iso": "HU",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/hu.svg",
+    "mask": "(###)###-###"
+  },
+  {
+    "name": "Iceland",
+    "code": "+354",
+    "iso": "IS",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/is.svg",
+    "mask": "###-####"
+  },
+  {
+    "name": "India",
+    "code": "+91",
+    "iso": "IN",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/in.svg",
+    "mask": "(####)###-###"
+  },
+  {
+    "name": "Indonesia",
+    "code": "+62",
+    "iso": "ID",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/id.svg",
+    "mask": [
+      "##-###-##",
+      "##-###-###",
+      "##-###-####",
+      "(8##)###-###",
+      "(8##)###-##-###"
+    ]
+  },
+  {
+    "name": "Iran",
+    "code": "+98",
+    "iso": "IR",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ir.svg",
+    "mask": "(###)###-####"
+  },
+  {
+    "name": "Iraq",
+    "code": "+964",
+    "iso": "IQ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/iq.svg",
+    "mask": "(###)###-####"
+  },
+  {
+    "name": "Ireland",
+    "code": "+353",
+    "iso": "IE",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ie.svg",
+    "mask": "(###)###-###"
+  },
+  {
+    "name": "Isle of Man",
+    "code": "+44",
+    "iso": "IM",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/im.svg",
+    "mask": "(####)######"
+  },
+  {
+    "name": "Israel",
+    "code": "+972",
+    "iso": "IL",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/il.svg",
+    "mask": [
+      "#-###-####",
+      "5#-###-####"
+    ]
+  },
+  {
+    "name": "Italy",
+    "code": "+39",
+    "iso": "IT",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/it.svg",
+    "mask": "(###)####-###"
+  },
+  {
+    "name": "Ivory Coast / Cote d'Ivoire",
+    "code": "+225",
+    "iso": "CI",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ci.svg",
+    "mask": "##-###-###"
+  },
+  {
+    "name": "Jamaica",
+    "code": "+1",
+    "iso": "JM",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/jm.svg",
+    "mask": "(876)###-####"
+  },
+  {
+    "name": "Japan",
+    "code": "+81",
+    "iso": "JP",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/jp.svg",
+    "mask": [
+      "(###)###-###",
+      "##-####-####"
+    ]
+  },
+  {
+    "name": "Jersey",
+    "code": "+44",
+    "iso": "JE",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/je.svg",
+    "mask": "(####)####-######"
+  },
+  {
+    "name": "Jordan",
+    "code": "+962",
+    "iso": "JO",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/jo.svg",
+    "mask": "#-####-####"
+  },
+  {
+    "name": "Kazakhstan",
+    "code": "+77",
+    "iso": "KZ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/kz.svg",
+    "mask": [
+      "(6##)###-##-##",
+      "(7##)###-##-##"
+    ]
+  },
+  {
+    "name": "Kenya",
+    "code": "+254",
+    "iso": "KE",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ke.svg",
+    "mask": "###-######"
+  },
+  {
+    "name": "Kiribati",
+    "code": "+686",
+    "iso": "KI",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ki.svg",
+    "mask": "##-###"
+  },
+  {
+    "name": "Korea, Democratic People's Republic of Korea",
+    "code": "+850",
+    "iso": "KP",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/kp.svg",
+    "mask": [
+      "###-###",
+      "####-####",
+      "##-###-###",
+      "###-####-###",
+      "191-###-####",
+      "####-#############"
+    ]
+  },
+  {
+    "name": "Korea, Republic of South Korea",
+    "code": "+82",
+    "iso": "KR",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/kr.svg",
+    "mask": "##-###-####"
+  },
+  {
+    "name": "Kosovo",
+    "code": "+383",
+    "iso": "XK",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/xk.svg",
+    "mask": [
+      "##-###-###",
+      "###-###-###"
+    ]
+  },
+  {
+    "name": "Kuwait",
+    "code": "+965",
+    "iso": "KW",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/kw.svg",
+    "mask": "####-####"
+  },
+  {
+    "name": "Kyrgyzstan",
+    "code": "+996",
+    "iso": "KG",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/kg.svg",
+    "mask": "(###)###-###"
+  },
+  {
+    "name": "Laos",
+    "code": "+856",
+    "iso": "LA",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/la.svg",
+    "mask": [
+      "##-###-###",
+      "(20##)###-###"
+    ]
+  },
+  {
+    "name": "Latvia",
+    "code": "+371",
+    "iso": "LV",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/lv.svg",
+    "mask": "##-###-###"
+  },
+  {
+    "name": "Lebanon",
+    "code": "+961",
+    "iso": "LB",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/lb.svg",
+    "mask": [
+      "#-###-###",
+      "##-###-###"
+    ]
+  },
+  {
+    "name": "Lesotho",
+    "code": "+266",
+    "iso": "LS",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ls.svg",
+    "mask": "#-###-####"
+  },
+  {
+    "name": "Liberia",
+    "code": "+231",
+    "iso": "LR",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/lr.svg",
+    "mask": "##-###-###"
+  },
+  {
+    "name": "Libya",
+    "code": "+218",
+    "iso": "LY",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ly.svg",
+    "mask": [
+      "##-###-###",
+      "21-###-####"
+    ]
+  },
+  {
+    "name": "Liechtenstein",
+    "code": "+423",
+    "iso": "LI",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/li.svg",
+    "mask": "(###)###-####"
+  },
+  {
+    "name": "Lithuania",
+    "code": "+370",
+    "iso": "LT",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/lt.svg",
+    "mask": "(###)##-###"
+  },
+  {
+    "name": "Luxembourg",
+    "code": "+352",
+    "iso": "LU",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/lu.svg",
+    "mask": "(###)###-###"
+  },
+  {
+    "name": "Macau",
+    "code": "+853",
+    "iso": "MO",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mo.svg",
+    "mask": "####-####"
+  },
+  {
+    "name": "Madagascar",
+    "code": "+261",
+    "iso": "MG",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mg.svg",
+    "mask": "##-##-#####"
+  },
+  {
+    "name": "Malawi",
+    "code": "+265",
+    "iso": "MW",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mw.svg",
+    "mask": [
+      "1-###-###",
+      "#-####-####"
+    ]
+  },
+  {
+    "name": "Malaysia",
+    "code": "+60",
+    "iso": "MY",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/my.svg",
+    "mask": [
+      "#-###-###",
+      "##-###-###",
+      "(###)###-###",
+      "##-###-####"
+    ]
+  },
+  {
+    "name": "Maldives",
+    "code": "+960",
+    "iso": "MV",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mv.svg",
+    "mask": "###-####"
+  },
+  {
+    "name": "Mali",
+    "code": "+223",
+    "iso": "ML",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ml.svg",
+    "mask": "##-##-####"
+  },
+  {
+    "name": "Malta",
+    "code": "+356",
+    "iso": "MT",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mt.svg",
+    "mask": "####-####"
+  },
+  {
+    "name": "Marshall Islands",
+    "code": "+692",
+    "iso": "MH",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mh.svg",
+    "mask": "###-####"
+  },
+  {
+    "name": "Martinique",
+    "code": "+596",
+    "iso": "MQ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mq.svg",
+    "mask": "(###)##-##-##"
+  },
+  {
+    "name": "Mauritania",
+    "code": "+222",
+    "iso": "MR",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mr.svg",
+    "mask": "##-##-####"
+  },
+  {
+    "name": "Mauritius",
+    "code": "+230",
+    "iso": "MU",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mu.svg",
+    "mask": "###-####"
+  },
+  {
+    "name": "Mayotte",
+    "code": "+262",
+    "iso": "YT",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/yt.svg",
+    "mask": "#####-####"
+  },
+  {
+    "name": "Mexico",
+    "code": "+52",
+    "iso": "MX",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mx.svg",
+    "mask": [
+      "##-##-####",
+      "(###)###-####"
+    ]
+  },
+  {
+    "name": "Micronesia, Federated States of Micronesia",
+    "code": "+691",
+    "iso": "FM",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/fm.svg",
+    "mask": "###-####"
+  },
+  {
+    "name": "Moldova",
+    "code": "+373",
+    "iso": "MD",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/md.svg",
+    "mask": "####-####"
+  },
+  {
+    "name": "Monaco",
+    "code": "+377",
+    "iso": "MC",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mc.svg",
+    "mask": [
+      "##-###-###",
+      "(###)###-###"
+    ]
+  },
+  {
+    "name": "Mongolia",
+    "code": "+976",
+    "iso": "MN",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mn.svg",
+    "mask": "##-##-####"
+  },
+  {
+    "name": "Montenegro",
+    "code": "+382",
+    "iso": "ME",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/me.svg",
+    "mask": "##-###-###"
+  },
+  {
+    "name": "Montserrat",
+    "code": "+1",
+    "iso": "MS",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ms.svg",
+    "mask": "(664)###-####"
+  },
+  {
+    "name": "Morocco",
+    "code": "+212",
+    "iso": "MA",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ma.svg",
+    "mask": "##-####-###"
+  },
+  {
+    "name": "Mozambique",
+    "code": "+258",
+    "iso": "MZ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mz.svg",
+    "mask": "##-###-###"
+  },
+  {
+    "name": "Myanmar",
+    "code": "+95",
+    "iso": "MM",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mm.svg",
+    "mask": [
+      "###-###",
+      "#-###-###",
+      "##-###-###"
+    ]
+  },
+  {
+    "name": "Namibia",
+    "code": "+264",
+    "iso": "NA",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/na.svg",
+    "mask": "##-###-####"
+  },
+  {
+    "name": "Nauru",
+    "code": "+674",
+    "iso": "NR",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/nr.svg",
+    "mask": "###-####"
+  },
+  {
+    "name": "Nepal",
+    "code": "+977",
+    "iso": "NP",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/np.svg",
+    "mask": "##-###-###"
+  },
+  {
+    "name": "Netherlands",
+    "code": "+31",
+    "iso": "NL",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/nl.svg",
+    "mask": "##-###-####"
+  },
+  {
+    "name": "New Caledonia",
+    "code": "+687",
+    "iso": "NC",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/nc.svg",
+    "mask": "##-####"
+  },
+  {
+    "name": "New Zealand",
+    "code": "+64",
+    "iso": "NZ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/nz.svg",
+    "mask": [
+      "#-###-###",
+      "(###)###-###",
+      "(###)###-####"
+    ]
+  },
+  {
+    "name": "Nicaragua",
+    "code": "+505",
+    "iso": "NI",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ni.svg",
+    "mask": "####-####"
+  },
+  {
+    "name": "Niger",
+    "code": "+227",
+    "iso": "NE",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ne.svg",
+    "mask": "##-##-####"
+  },
+  {
+    "name": "Nigeria",
+    "code": "+234",
+    "iso": "NG",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ng.svg",
+    "mask": [
+      "##-###-##",
+      "##-###-###",
+      "(###)###-####"
+    ]
+  },
+  {
+    "name": "Niue",
+    "code": "+683",
+    "iso": "NU",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/nu.svg",
+    "mask": "####"
+  },
+  {
+    "name": "Norfolk Island",
+    "code": "+672",
+    "iso": "NF",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/nf.svg",
+    "mask": "3##-###"
+  },
+  {
+    "name": "North Macedonia",
+    "code": "+389",
+    "iso": "MK",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mk.svg",
+    "mask": "##-###-###"
+  },
+  {
+    "name": "Northern Mariana Islands",
+    "code": "+1",
+    "iso": "MP",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mp.svg",
+    "mask": "(670)###-####"
+  },
+  {
+    "name": "Norway",
+    "code": "+47",
+    "iso": "NO",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/no.svg",
+    "mask": "(###)##-###"
+  },
+  {
+    "name": "Oman",
+    "code": "+968",
+    "iso": "OM",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/om.svg",
+    "mask": "##-###-###"
+  },
+  {
+    "name": "Pakistan",
+    "code": "+92",
+    "iso": "PK",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/pk.svg",
+    "mask": "(###)###-####"
+  },
+  {
+    "name": "Palau",
+    "code": "+680",
+    "iso": "PW",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/pw.svg",
+    "mask": "###-####"
+  },
+  {
+    "name": "Palestine",
+    "code": "+970",
+    "iso": "PS",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ps.svg",
+    "mask": "##-###-####"
+  },
+  {
+    "name": "Panama",
+    "code": "+507",
+    "iso": "PA",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/pa.svg",
+    "mask": "###-####"
+  },
+  {
+    "name": "Papua New Guinea",
+    "code": "+675",
+    "iso": "PG",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/pg.svg",
+    "mask": "(###)##-###"
+  },
+  {
+    "name": "Paraguay",
+    "code": "+595",
+    "iso": "PY",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/py.svg",
+    "mask": "(###)###-###"
+  },
+  {
+    "name": "Peru",
+    "code": "+51",
+    "iso": "PE",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/pe.svg",
+    "mask": "(###)###-###"
+  },
+  {
+    "name": "Philippines",
+    "code": "+63",
+    "iso": "PH",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ph.svg",
+    "mask": "(###)###-####"
+  },
+  {
+    "name": "Pitcairn",
+    "code": "+870",
+    "iso": "PN",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/pn.svg",
+    "mask": "###-###-###"
+  },
+  {
+    "name": "Poland",
+    "code": "+48",
+    "iso": "PL",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/pl.svg",
+    "mask": "(###)###-###"
+  },
+  {
+    "name": "Portugal",
+    "code": "+351",
+    "iso": "PT",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/pt.svg",
+    "mask": "##-###-####"
+  },
+  {
+    "name": "Puerto Rico",
+    "code": "+1",
+    "iso": "PR",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/pr.svg",
+    "mask": [
+      "(787) ### ####",
+      "(939) ### ####"
+    ]
+  },
+  {
+    "name": "Qatar",
+    "code": "+974",
+    "iso": "QA",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/qa.svg",
+    "mask": "####-####"
+  },
+  {
+    "name": "Reunion",
+    "code": "+262",
+    "iso": "RE",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/re.svg",
+    "mask": "#####-####"
+  },
+  {
+    "name": "Romania",
+    "code": "+40",
+    "iso": "RO",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ro.svg",
+    "mask": "##-###-####"
+  },
+  {
+    "name": "Russia",
+    "code": "+7",
+    "iso": "RU",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ru.svg",
+    "mask": "(###)###-##-##"
+  },
+  {
+    "name": "Rwanda",
+    "code": "+250",
+    "iso": "RW",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/rw.svg",
+    "mask": "(###)###-###"
+  },
+  {
+    "name": "Saint Barthelemy",
+    "code": "+590",
+    "iso": "BL",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/bl.svg",
+    "mask": "###-##-##-##"
+  },
+  {
+    "name": "Saint Helena, Ascension and Tristan Da Cunha",
+    "code": "+290",
+    "iso": "SH",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sh.svg",
+    "mask": "####"
+  },
+  {
+    "name": "Saint Kitts and Nevis",
+    "code": "+1",
+    "iso": "KN",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/kn.svg",
+    "mask": "(869)###-####"
+  },
+  {
+    "name": "Saint Lucia",
+    "code": "+1",
+    "iso": "LC",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/lc.svg",
+    "mask": "(758)###-####"
+  },
+  {
+    "name": "Saint Martin",
+    "code": "+590",
+    "iso": "MF",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mf.svg",
+    "mask": "(###)###-###"
+  },
+  {
+    "name": "Saint Pierre and Miquelon",
+    "code": "+508",
+    "iso": "PM",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/pm.svg",
+    "mask": "##-####"
+  },
+  {
+    "name": "Saint Vincent and the Grenadines",
+    "code": "+1",
+    "iso": "VC",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/vc.svg",
+    "mask": "(784)###-####"
+  },
+  {
+    "name": "Samoa",
+    "code": "+685",
+    "iso": "WS",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ws.svg",
+    "mask": "##-####"
+  },
+  {
+    "name": "San Marino",
+    "code": "+378",
+    "iso": "SM",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sm.svg",
+    "mask": "####-######"
+  },
+  {
+    "name": "Sao Tome and Principe",
+    "code": "+239",
+    "iso": "ST",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/st.svg",
+    "mask": "##-#####"
+  },
+  {
+    "name": "Saudi Arabia",
+    "code": "+966",
+    "iso": "SA",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sa.svg",
+    "mask": [
+      "#-###-####",
+      "5#-####-####"
+    ]
+  },
+  {
+    "name": "Senegal",
+    "code": "+221",
+    "iso": "SN",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sn.svg",
+    "mask": "##-###-####"
+  },
+  {
+    "name": "Serbia",
+    "code": "+381",
+    "iso": "RS",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/rs.svg",
+    "mask": "##-###-####"
+  },
+  {
+    "name": "Seychelles",
+    "code": "+248",
+    "iso": "SC",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sc.svg",
+    "mask": "#-###-###"
+  },
+  {
+    "name": "Sierra Leone",
+    "code": "+232",
+    "iso": "SL",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sl.svg",
+    "mask": "##-######"
+  },
+  {
+    "name": "Singapore",
+    "code": "+65",
+    "iso": "SG",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sg.svg",
+    "mask": "####-####"
+  },
+  {
+    "name": "Sint Maarten",
+    "code": "+1",
+    "iso": "SX",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sx.svg",
+    "mask": "(721)###-####"
+  },
+  {
+    "name": "Slovakia",
+    "code": "+421",
+    "iso": "SK",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sk.svg",
+    "mask": "(###)###-###"
+  },
+  {
+    "name": "Slovenia",
+    "code": "+386",
+    "iso": "SI",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/si.svg",
+    "mask": "##-###-###"
+  },
+  {
+    "name": "Solomon Islands",
+    "code": "+677",
+    "iso": "SB",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sb.svg",
+    "mask": [
+      "#####",
+      "###-####"
+    ]
+  },
+  {
+    "name": "Somalia",
+    "code": "+252",
+    "iso": "SO",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/so.svg",
+    "mask": [
+      "#-###-###",
+      "##-###-###"
+    ]
+  },
+  {
+    "name": "South Africa",
+    "code": "+27",
+    "iso": "ZA",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/za.svg",
+    "mask": "##-###-####"
+  },
+  {
+    "name": "South Georgia and the South Sandwich Islands",
+    "code": "+500",
+    "iso": "GS",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gs.svg",
+    "mask": "#####"
+  },
+  {
+    "name": "South Sudan",
+    "code": "+211",
+    "iso": "SS",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ss.svg",
+    "mask": "##-###-####"
+  },
+  {
+    "name": "Spain",
+    "code": "+34",
+    "iso": "ES",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/es.svg",
+    "mask": "(###)###-###"
+  },
+  {
+    "name": "Sri Lanka",
+    "code": "+94",
+    "iso": "LK",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/lk.svg",
+    "mask": "##-###-####"
+  },
+  {
+    "name": "Sudan",
+    "code": "+249",
+    "iso": "SD",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sd.svg",
+    "mask": "##-###-####"
+  },
+  {
+    "name": "Suriname",
+    "code": "+597",
+    "iso": "SR",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sr.svg",
+    "mask": [
+      "###-###",
+      "###-####"
+    ]
+  },
+  {
+    "name": "Svalbard and Jan Mayen",
+    "code": "+47",
+    "iso": "SJ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sj.svg",
+    "mask": "(###)##-###"
+  },
+  {
+    "name": "Sweden",
+    "code": "+46",
+    "iso": "SE",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/se.svg",
+    "mask": "##-###-####"
+  },
+  {
+    "name": "Switzerland",
+    "code": "+41",
+    "iso": "CH",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ch.svg",
+    "mask": "##-###-####"
+  },
+  {
+    "name": "Syrian Arab Republic",
+    "code": "+963",
+    "iso": "SY",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sy.svg",
+    "mask": "##-####-###"
+  },
+  {
+    "name": "Taiwan",
+    "code": "+886",
+    "iso": "TW",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/tw.svg",
+    "mask": [
+      "####-####",
+      "#-####-####"
+    ]
+  },
+  {
+    "name": "Tajikistan",
+    "code": "+992",
+    "iso": "TJ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/tj.svg",
+    "mask": "##-###-####"
+  },
+  {
+    "name": "Tanzania, United Republic of Tanzania",
+    "code": "+255",
+    "iso": "TZ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/tz.svg",
+    "mask": "##-###-####"
+  },
+  {
+    "name": "Thailand",
+    "code": "+66",
+    "iso": "TH",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/th.svg",
+    "mask": [
+      "##-###-###",
+      "##-###-####"
+    ]
+  },
+  {
+    "name": "Timor-Leste",
+    "code": "+670",
+    "iso": "TL",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/tl.svg",
+    "mask": [
+      "###-####",
+      "77#-#####",
+      "78#-#####"
+    ]
+  },
+  {
+    "name": "Togo",
+    "code": "+228",
+    "iso": "TG",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/tg.svg",
+    "mask": "##-###-###"
+  },
+  {
+    "name": "Tokelau",
+    "code": "+690",
+    "iso": "TK",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/tk.svg",
+    "mask": "####"
+  },
+  {
+    "name": "Tonga",
+    "code": "+676",
+    "iso": "TO",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/to.svg",
+    "mask": "#####"
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "code": "+1",
+    "iso": "TT",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/tt.svg",
+    "mask": "(868)###-####"
+  },
+  {
+    "name": "Tunisia",
+    "code": "+216",
+    "iso": "TN",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/tn.svg",
+    "mask": "##-###-###"
+  },
+  {
+    "name": "Turkey",
+    "code": "+90",
+    "iso": "TR",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/tr.svg",
+    "mask": "(###)###-####"
+  },
+  {
+    "name": "Turkmenistan",
+    "code": "+993",
+    "iso": "TM",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/tm.svg",
+    "mask": "#-###-####"
+  },
+  {
+    "name": "Turks and Caicos Islands",
+    "code": "+1",
+    "iso": "TC",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/tc.svg",
+    "mask": "(249)###-###"
+  },
+  {
+    "name": "Tuvalu",
+    "code": "+688",
+    "iso": "TV",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/tv.svg",
+    "mask": [
+      "2####",
+      "90####"
+    ]
+  },
+  {
+    "name": "Uganda",
+    "code": "+256",
+    "iso": "UG",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ug.svg",
+    "mask": "(###)###-###"
+  },
+  {
+    "name": "Ukraine",
+    "code": "+380",
+    "iso": "UA",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ua.svg",
+    "mask": "(##)###-##-##"
+  },
+  {
+    "name": "United Arab Emirates",
+    "code": "+971",
+    "iso": "AE",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ae.svg",
+    "mask": [
+      "#-###-####",
+      "5#-###-####"
+    ]
+  },
+  {
+    "name": "United Kingdom",
+    "code": "+44",
+    "iso": "GB",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gb.svg",
+    "mask": "##-####-####"
+  },
+  {
+    "name": "United States",
+    "code": "+1",
+    "iso": "US",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/us.svg",
+    "mask": "(###)###-####"
+  },
+  {
+    "name": "Uruguay",
+    "code": "+598",
+    "iso": "UY",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/uy.svg",
+    "mask": "#-###-##-##"
+  },
+  {
+    "name": "Uzbekistan",
+    "code": "+998",
+    "iso": "UZ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/uz.svg",
+    "mask": "##-###-####"
+  },
+  {
+    "name": "Vanuatu",
+    "code": "+678",
+    "iso": "VU",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/vu.svg",
+    "mask": [
+      "#####",
+      "##-#####"
+    ]
+  },
+  {
+    "name": "Venezuela, Bolivarian Republic of Venezuela",
+    "code": "+58",
+    "iso": "VE",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ve.svg",
+    "mask": "(###)###-####"
+  },
+  {
+    "name": "Vietnam",
+    "code": "+84",
+    "iso": "VN",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/vn.svg",
+    "mask": [
+      "##-####-###",
+      "(###)####-###"
+    ]
+  },
+  {
+    "name": "Virgin Islands, British",
+    "code": "+1",
+    "iso": "VG",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/vg.svg",
+    "mask": "(284)###-####"
+  },
+  {
+    "name": "Virgin Islands, U.S.",
+    "code": "+1",
+    "iso": "VI",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/vi.svg",
+    "mask": "(340)###-####"
+  },
+  {
+    "name": "Wallis and Futuna",
+    "code": "+681",
+    "iso": "WF",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/wf.svg",
+    "mask": "##-####"
+  },
+  {
+    "name": "Yemen",
+    "code": "+967",
+    "iso": "YE",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ye.svg",
+    "mask": [
+      "#-###-###",
+      "##-###-###",
+      "###-###-###"
+    ]
+  },
+  {
+    "name": "Zambia",
+    "code": "+260",
+    "iso": "ZM",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/zm.svg",
+    "mask": "##-###-####"
+  },
+  {
+    "name": "Zimbabwe",
+    "code": "+263",
+    "iso": "ZW",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/zw.svg",
+    "mask": "#-######"
+  }
 ]

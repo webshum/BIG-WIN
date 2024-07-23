@@ -9,8 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "v-mask": "^2.3.0",
     "vue": "^3.4.29",
-    "vue-router": "^4.3.3"
+    "vue-3-mask": "^0.0.1-alpha",
+    "vue-router": "^4.3.3",
+    "vue-tel-input": "^9.1.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",

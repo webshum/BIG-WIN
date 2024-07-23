@@ -1,13 +1,15 @@
 <script setup>
-import { ref, computed, defineEmits } from 'vue';
+import { ref, computed, defineEmits, onMounted } from 'vue';
 import Country from './Country.json';
 
 const searchQuery = ref('');
+const availableCountries = ref([]);
 
 function onSelected(e) {
 	const flag = e.target.closest('.item').dataset.flag;
 	const code = e.target.closest('.item').dataset.code;
-	const codeCountry = e.target.closest('.item').dataset.codecountry;
+	const codeCountry = e.target.closest('.item').dataset.iso;
+	const mask = e.target.closest('.item').dataset.mask;
 
 	e.target.closest('.item').classList.add('active');
 
@@ -19,14 +21,13 @@ function onSelected(e) {
 			code: code,
 			codeCountry: codeCountry,
 			flag: flag,
+			mask: mask
 		});
 	}, 300);
 }
 
 const filteredCountries = computed(() => {
-	return Country.filter(country => {
-		return country.name.toLowerCase().includes(searchQuery.value.toLowerCase());
-	});
+	return Country.filter(country => availableCountries.value.includes(country.iso));
 });
 
 const emit = defineEmits(['onFlag', 'onCode']);
@@ -34,6 +35,20 @@ const emit = defineEmits(['onFlag', 'onCode']);
 function onBack() {
 	emit('onFlag', false);
 }
+
+onMounted(async () => {
+	const result = await fetch('https://fdspnasa.info/api/v1/countries', {
+		method: 'POST',
+		headers: {'Content-Type': 'application/json'},
+		body: JSON.stringify({
+			"bundle": "string"
+		})
+	});
+
+	const data = await result.json();
+
+	availableCountries.value = data.availableCountries;
+});
 
 </script>
 
@@ -56,14 +71,15 @@ function onBack() {
 			<div
 				class="item"
 				v-for="country in filteredCountries"
-				:data-code="country.dial_code"
-				:data-codeCountry="country.code"
-				:data-flag="country.emoji"
+				:data-code="country.code"
+				:data-codeCountry="country.iso"
+				:data-flag="country.flag"
+				:data-mask="country.mask"
 				@click="onSelected"
 			>
-				<div>{{ country.emoji }}</div>
+				<img class="flag" :src="country.flag" alt="">
 				{{ country.name }}
-				<span>{{ country.dial_code }}</span>
+				<span>{{ country.code }}</span>
 			</div>
 		</div>
 	</div>
@@ -79,7 +95,7 @@ function onBack() {
 	z-index: 99;
 	background: #191B1C;
 	padding: 15px;
-	display: block;
+	display: flex;
 	flex-direction: column;
 
 	h3.title {
