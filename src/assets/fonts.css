@@ -1,0 +1,89 @@
+@font-face {
+	font-family: 'ITC Avant Garde Gothic Std';
+	src: url('fonts/ITCAvantGardeStd-XLtCn.woff2') format('woff2'),
+		url('fonts/ITCAvantGardeStd-XLtCn.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'ITC Avant Garde Gothic Std';
+	src: url('fonts/ITCAvantGardeStd-BkCnObl.woff2') format('woff2'),
+		url('fonts/ITCAvantGardeStd-BkCnObl.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'ITC Avant Garde Gothic Std';
+	src: url('fonts/ITCAvantGardeStd-BoldCnObl.woff2') format('woff2'),
+		url('fonts/ITCAvantGardeStd-BoldCnObl.woff') format('woff');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'ITC Avant Garde Gothic Std';
+	src: url('fonts/ITCAvantGardeStd-BoldObl.woff2') format('woff2'),
+		url('fonts/ITCAvantGardeStd-BoldObl.woff') format('woff');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'ITC Avant Garde Gothic Std';
+	src: url('fonts/ITCAvantGardeStd-XLtCnObl.woff2') format('woff2'),
+		url('fonts/ITCAvantGardeStd-XLtCnObl.woff') format('woff');
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'ITC Avant Garde Gothic Std';
+	src: url('fonts/ITCAvantGardeStd-BkObl.woff2') format('woff2'),
+		url('fonts/ITCAvantGardeStd-BkObl.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'ITC Avant Garde Gothic Std';
+	src: url('fonts/ITCAvantGardeStd-MdCnObl.woff2') format('woff2'),
+		url('fonts/ITCAvantGardeStd-MdCnObl.woff') format('woff');
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'ITC Avant Garde Gothic Std';
+	src: url('fonts/ITCAvantGardeStd-MdObl.woff2') format('woff2'),
+		url('fonts/ITCAvantGardeStd-MdObl.woff') format('woff');
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'ITC Avant Garde Gothic Std';
+	src: url('fonts/ITCAvantGardeStd-DemiObl.woff2') format('woff2'),
+		url('fonts/ITCAvantGardeStd-DemiObl.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'ITC Avant Garde Gothic Std';
+	src: url('fonts/ITCAvantGardeStd-DemiCnObl.woff2') format('woff2'),
+		url('fonts/ITCAvantGardeStd-DemiCnObl.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
