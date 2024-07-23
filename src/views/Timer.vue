@@ -229,6 +229,10 @@ onMounted(() => {
 			gap: 16px;
 			margin-top: -15px;
 		}
+
+		@media (max-width: 500px) {
+			zoom: 0.8;
+		}
 	}
 
 	.what {

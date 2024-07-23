@@ -9,9 +9,9 @@ import Social from '../components/Social.vue';
 			<div class="tx-c">
 				<h2 class="title">Let's NoApp<br> something great together</h2><br>
 
-				<RouterLink to="/write-number" class="btn-discrover">
+				<!-- <RouterLink to="/write-number" class="btn-discrover">
 					<span class="inner"><span>Discover</span></span>
-				</RouterLink>
+				</RouterLink> -->
 
 				<div class="links">
 					<a href="#">Terms & Conditions</a>

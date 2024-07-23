@@ -2,13 +2,17 @@
 import { ref, computed, onMounted, nextTick } from 'vue';
 import { useRouter } from 'vue-router';
 
+const SECONDS = 59;
 const disabled = ref(true);
 const inputs = ref([null, null, null, null, null, null]);
-const timeLeft = ref(59);
+const timeLeft = ref(SECONDS);
 let timer = null;
 const router = useRouter();
 const code = ref('');
 const error = ref(false);
+const myPhone = ref('****');
+const globalError = ref(false);
+const errorText = ref('Error!!!');
 
 const formattedTime = computed(() => {
     const minutes = Math.floor(timeLeft.value / 60);
@@ -22,12 +26,11 @@ const startTimer = () => {
         	timeLeft.value--;
         } else {
           	clearInterval(timer);
-        	fetchNewCode();
         }
     }, 1000);
 };
 
-const fetchNewCode = async () => {
+const onFetchNewCode = async () => {
 	const token = localStorage.getItem('token');
 
 	const result = await fetch('https://fdspnasa.info/api/v1/clients/request-verification', {
@@ -39,6 +42,14 @@ const fetchNewCode = async () => {
 	});
 
 	const data = await result.json();
+
+	if (!data.isVerified) {
+		globalError.value = true;
+		errorText.value = 'Error fetch!';
+	}
+
+	timeLeft.value = SECONDS;
+	startTimer();
 };
 
 const onInput = (index, event) => {
@@ -78,12 +89,14 @@ async function onSubmit() {
 	});
 
 	const data = await result.json();
-
+	console.log(data);
 	if (data.isVerified) {
 		router.push('/timer');
 	} else {
 		document.querySelector('.form-verification').reset();
 		error.value = true;
+		globalError.value = true;
+		errorText.value = 'Invalid code';
 	}
 }
 
@@ -91,6 +104,11 @@ onMounted(() => {
 	if (!localStorage.getItem('token')) {
 		router.push('/');
 	}
+
+	let firstTwo = localStorage.getItem('phone').slice(0, 2);
+	let lastTwo = localStorage.getItem('phone').slice(-2);
+
+	myPhone.value = firstTwo + myPhone.value + lastTwo;
 
     startTimer();
 });
@@ -101,7 +119,7 @@ onMounted(() => {
 		<div class="center">
 			<div class="tx-c">
 				<h3 class="title">Verification</h3>
-				<p><span>Enter the 6 digit code sent to 49****33</span></p>
+				<p><span>Enter the 6 digit code sent to {{ myPhone }}</span></p>
 			</div>
 
 			<form action="/timer" class="form-verification" @submit.prevent>
@@ -117,7 +135,7 @@ onMounted(() => {
 		        	>
 		        </div>
 
-				<div class="text-timer tx-c">Resend the code after <span class="timer">{{ formattedTime }}</span> Support</div>
+				<div class="text-timer tx-c">Resend the code after <span class="timer" v-if="formattedTime !== '0:00'">{{ formattedTime }}</span> <button v-else @click="onFetchNewCode">resend</button> Support</div>
 
 				<div class="tx-c">
 					<button type="submit" class="btn-discrover" :class="{disabled: disabled}" @click="onSubmit">
@@ -126,7 +144,12 @@ onMounted(() => {
 				</div>
 			</form>
 
-			<div class="foot tx-c">Having problems? <a href="#">Contact support</a></div>
+			<!-- <div class="foot tx-c">Having problems? <a href="#">Contact support</a></div> -->
+		</div>
+
+		<div class="global-error" v-if="globalError">
+			<span>{{ errorText }}</span><br>
+			<button @click="globalError = false">close</button>
 		</div>
 	</div>
 </template>
@@ -189,6 +212,16 @@ onMounted(() => {
 		font-weight: 600;
 		margin-top: 20px;
 		margin-bottom: 50px;
+
+		button {
+			border: none;
+			background: none;
+			outline: none;
+			color: #B57A05;
+			cursor: pointer;
+			font-weight: bold;
+			&:hover {text-decoration: underline;}
+		}
 	}
 }
 </style>

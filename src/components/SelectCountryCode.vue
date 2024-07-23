@@ -7,6 +7,7 @@ const searchQuery = ref('');
 function onSelected(e) {
 	const flag = e.target.closest('.item').dataset.flag;
 	const code = e.target.closest('.item').dataset.code;
+	const codeCountry = e.target.closest('.item').dataset.codecountry;
 
 	e.target.closest('.item').classList.add('active');
 
@@ -14,7 +15,11 @@ function onSelected(e) {
 		e.target.closest('.item').classList.remove('active');
 
 		emit('onFlag', false);
-		emit('onCode', {code: code, flag: flag});
+		emit('onCode', {
+			code: code,
+			codeCountry: codeCountry,
+			flag: flag,
+		});
 	}, 300);
 }
 
@@ -52,6 +57,7 @@ function onBack() {
 				class="item"
 				v-for="country in filteredCountries"
 				:data-code="country.dial_code"
+				:data-codeCountry="country.code"
 				:data-flag="country.emoji"
 				@click="onSelected"
 			>

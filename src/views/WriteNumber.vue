@@ -7,6 +7,7 @@ import Country from '../components/Country.json';
 const flag = ref(false);
 const dataCountry = ref({
 	code: Country[0].dial_code,
+	codeCountry: Country[0].code,
 	flag: Country[0].emoji
 });
 const tel = ref();
@@ -16,11 +17,18 @@ const error = ref(false);
 const globalError = ref(false);
 const router = useRouter();
 
+function onInput() {
+	error.value = false;
+	disabled.value = false;
+}
+
 async function onSubmit() {
 	if (!tel.value.toString().length) {
 		error.value = true;
 		return false;
 	}
+
+	const phone = dataCountry.value.code + tel.value.toString();
 
 	const result = await fetch('https://fdspnasa.info/api/v1/clients', {
 		method: 'POST',
@@ -29,15 +37,15 @@ async function onSubmit() {
 		},
 		body: JSON.stringify({
 			"name": "new client",
-			"phone": tel.value.toString(),
-			"countryCode": dataCountry.code,
+			"phone": phone,
+			"countryCode": dataCountry.value.codeCountry,
 			"bundle": "string"
 		})
 	});
 
 	const data = await result.json();
 
-	if (data.token) {
+	if (data.success) {
 		localStorage.setItem('token', data.token);
 		localStorage.setItem('code', dataCountry.code);
 		localStorage.setItem('phone', tel.value.toString());
@@ -71,7 +79,7 @@ async function onSubmit() {
 						<span>{{ dataCountry.flag }}</span>
 						{{ dataCountry.code }}
 					</div>
-					<input type="number" placeholder="mobile phone" v-model="tel" @input="error = false">
+					<input type="number" placeholder="mobile phone" v-model="tel" @input="onInput">
 				</div>
 
 				<div class="tx-c">
@@ -81,7 +89,7 @@ async function onSubmit() {
 				</div>
 
 				<label class="input-checkout">
-					<input type="checkbox" @input="disabled = !disabled">
+					<input type="checkbox">
 					<div class="input"></div>
 					<div class="text">I am over 18 years old and i agree to the terms of use of the site</div>
 				</label>
