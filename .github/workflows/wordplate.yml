@@ -21,7 +21,7 @@ jobs:
 									username: webshum
 									password: Serhi199029
 									script: |
-											cd /home/webshum/web-shum.com.ua/kiev
+											cd /home/webshum/web-shum.com.ua/bigwin/BIG-WIN
 											git pull origin develop
 
 						- name: Deploy to production
@@ -32,7 +32,7 @@ jobs:
 									username: webshum
 									password: Serhi199029
 									script: |
-											cd /home/webshum/web-shum.com.ua/kiev
+											cd /home/webshum/web-shum.com.ua/bigwin/BIG-WIN
 											git pull origin master
 
 						- name: Send Telegram message
