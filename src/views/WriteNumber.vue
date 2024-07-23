@@ -140,7 +140,7 @@ async function onSubmit() {
 			display: block;
 			width: 10px;
 			height: 6px;
-			background: url(svg/ic-arr.svg) no-repeat;
+			background: url(/svg/ic-arr.svg) no-repeat;
 			position: absolute;
 			right: 12px;
 			top: 50%;
@@ -188,7 +188,7 @@ async function onSubmit() {
 			display: block;
 			width: 16px;
 			height: 10px;
-			background: url(svg/ic-check.svg) no-repeat;
+			background: url(/svg/ic-check.svg) no-repeat;
 			position: absolute;
 			top: 50%;
 			left: 50%;

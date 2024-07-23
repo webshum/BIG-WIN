@@ -23,7 +23,7 @@
 		top: 0;
 		left: 0;
 		right: 0;
-		background: url(header/bg.png) no-repeat;
+		background: url(/header/bg.png) no-repeat;
 		background-size: 100% 100%;
 	}
 
@@ -36,7 +36,7 @@
 			display: block;
 			width: 60px;
 			height: 60px;
-			background: url(header/bg-1.svg) no-repeat;
+			background: url(/header/bg-1.svg) no-repeat;
 			position: absolute;
 			top: 0;
 			left: -45px;
@@ -47,7 +47,7 @@
 			display: block;
 			width: 62px;
 			height: 62px;
-			background: url(header/bg-2.svg) no-repeat;
+			background: url(/header/bg-2.svg) no-repeat;
 			position: absolute;
 			top: 40px;
 			right: -70px;
@@ -58,7 +58,7 @@
 			display: block;
 			width: 102px;
 			height: 102px;
-			background: url(header/bg-3.svg) no-repeat;
+			background: url(/header/bg-3.svg) no-repeat;
 			position: absolute;
 			bottom: -35px;
 			left: -100px;

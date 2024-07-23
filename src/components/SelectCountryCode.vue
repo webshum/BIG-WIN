@@ -112,7 +112,7 @@ function onBack() {
 			left: 0;
 			right: 0;
 			bottom: 0;
-			background: transparent url(svg/ic-search.svg) no-repeat calc(50% - 50px) 50%;
+			background: transparent url(/svg/ic-search.svg) no-repeat calc(50% - 50px) 50%;
 			text-align: center;
 			border: none;
 			outline: none;
@@ -164,7 +164,7 @@ function onBack() {
 				display: inline-block;
 				width: 16px;
 				height: 10px;
-				background: url(svg/ic-check.svg) no-repeat;
+				background: url(/svg/ic-check.svg) no-repeat;
 				margin-left: auto;
 				transition: all 0.3s;
 				opacity: 0;

@@ -190,7 +190,7 @@ onMounted(() => {
 			display: block;
 			width: 52px;
 			height: 75px;
-			background: url(timer/bg-1.svg) no-repeat;
+			background: url(/timer/bg-1.svg) no-repeat;
 			position: absolute;
 			top: 120px;
 			left: 20px;
@@ -201,7 +201,7 @@ onMounted(() => {
 			display: block;
 			width: 72px;
 			height: 89px;
-			background: url(timer/bg-2.svg) no-repeat;
+			background: url(/timer/bg-2.svg) no-repeat;
 			position: absolute;
             top: 50px;
             right: 35px;
@@ -212,7 +212,7 @@ onMounted(() => {
 			display: block;
 			width: 81px;
 			height: 96px;
-			background: url(timer/bg-3.svg) no-repeat;
+			background: url(/timer/bg-3.svg) no-repeat;
 			position: absolute;
 			bottom: 15px;
 			right: 40px;
@@ -303,7 +303,7 @@ onMounted(() => {
 		.bg-1 {
 			width: 83px;
 			height: 83px;
-			background: url(timer/bg-1_1.svg) no-repeat;
+			background: url(/timer/bg-1_1.svg) no-repeat;
 			position: absolute;
 			top: -49px;
 			left: 55px;
@@ -312,7 +312,7 @@ onMounted(() => {
 		.bg-2 {
 			width: 64px;
 			height: 64px;
-			background: url(timer/bg-2_2.svg) no-repeat;
+			background: url(/timer/bg-2_2.svg) no-repeat;
 			position: absolute;
 			top: -70px;
 			right: 70px;
@@ -321,7 +321,7 @@ onMounted(() => {
 		.bg-3 {
 			width: 126px;
 			height: 126px;
-			background: url(timer/bg-3_3.svg) no-repeat;
+			background: url(/timer/bg-3_3.svg) no-repeat;
 			position: absolute;
 			bottom: -82px;
 			left: -21px;
@@ -330,7 +330,7 @@ onMounted(() => {
 		.bg-4 {
 			width: 57px;
 			height: 57px;
-			background: url(timer/bg-4_4.svg) no-repeat;
+			background: url(/timer/bg-4_4.svg) no-repeat;
 			position: absolute;
 			bottom: -110px;
 			left: 65px;
@@ -339,7 +339,7 @@ onMounted(() => {
 		.bg-small {
 			width: 81px;
 			height: 83px;
-			background: url(timer/ic-small.svg) no-repeat;
+			background: url(/timer/ic-small.svg) no-repeat;
 			position: absolute;
 			top: -20px;
 			right: 5px;
@@ -348,7 +348,7 @@ onMounted(() => {
 		.bg-dot {
 			width: 59px;
 			height: 48px;
-			background: url(timer/ic-dot.svg) no-repeat;
+			background: url(/timer/ic-dot.svg) no-repeat;
 			position: absolute;
 			bottom: 100%;
 			left: 0;
@@ -358,7 +358,7 @@ onMounted(() => {
 		.bg-what {
 			width: 225px;
 			height: 189px;
-			background: url(timer/ic-waht.svg) no-repeat;
+			background: url(/timer/ic-waht.svg) no-repeat;
 			position: absolute;
 			top: 100%;
 			right: 0;

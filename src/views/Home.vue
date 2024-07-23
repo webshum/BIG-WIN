@@ -96,7 +96,7 @@ import Social from '../components/Social.vue';
 <style>
 	.head {
 		padding-top: 50px;
-		background: url('bg-home.png') no-repeat center bottom;
+		background: url('/bg-home.png') no-repeat center bottom;
 		background-size: cover;
 	}
 
@@ -117,7 +117,7 @@ import Social from '../components/Social.vue';
 				position: absolute;
 				top: 0;
 				right: 0;
-				background: url(svg/bg-title-1.svg) no-repeat;
+				background: url(/svg/bg-title-1.svg) no-repeat;
 				top: -24px;
 				right: -50px;
 			}
@@ -129,7 +129,7 @@ import Social from '../components/Social.vue';
 				position: absolute;
 				bottom: 0;
 				left: 0;
-				background: url(svg/bg-title-2.svg) no-repeat;
+				background: url(/svg/bg-title-2.svg) no-repeat;
 				bottom: -28px;
 				left: -37px;
 			}
@@ -166,7 +166,7 @@ import Social from '../components/Social.vue';
 				position: absolute;
 				top: -10px;
 				right: 15px;
-				background: url(what/bg-1.svg) no-repeat;
+				background: url(/what/bg-1.svg) no-repeat;
 			}
 
 			& > .tx-c > p {
@@ -180,7 +180,7 @@ import Social from '../components/Social.vue';
 					position: absolute;
 					bottom: -120px;
 					left: -10px;
-					background: url(what/bg-2.svg) no-repeat;
+					background: url(/what/bg-2.svg) no-repeat;
 				}
 			}
 		}
