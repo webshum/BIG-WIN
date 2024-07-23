@@ -104,6 +104,19 @@ async function onSubmit() {
 		error.value = true;
 	}
 }
+
+onMounted(() => {
+	if (!localStorage.getItem('token')) {
+		router.push('/');
+	}
+
+	let firstTwo = localStorage.getItem('phone').slice(1, 3);
+	let lastTwo = localStorage.getItem('phone').slice(-2);
+
+	myPhone.value = firstTwo + myPhone.value + lastTwo;
+
+    startTimer();
+});
 </script>
 
 <template>
