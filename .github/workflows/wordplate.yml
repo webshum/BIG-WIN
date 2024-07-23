@@ -1,45 +1,45 @@
 name: Laravel Deployment
 on:
-		push:
-				branches:
-						- develop
-						- master
+    push:
+        branches:
+            - develop
+            - master
 
 jobs:
-		deploy:
-				name: Deploy
-				runs-on: ubuntu-latest
-				steps:
-						- name: Check out code
-							uses: actions/checkout@v2
+    deploy:
+        name: Deploy
+        runs-on: ubuntu-latest
+        steps:
+            - name: Check out code
+              uses: actions/checkout@v2
 
-						- name: Deploy to development
-							if: github.ref == 'refs/heads/develop'
-							uses: appleboy/ssh-action@v1.0.3
-							with:
-									host: 91.206.201.58
-									username: webshum
-									password: Serhi199029
-									script: |
-											cd /home/webshum/web-shum.com.ua/bigwin/BIG-WIN
-											git pull origin develop
+            - name: Deploy to development
+              if: github.ref == 'refs/heads/develop'
+              uses: appleboy/ssh-action@v1.0.3
+              with:
+                  host: 91.206.201.58
+                  username: webshum
+                  password: Serhi199029
+                  script: |
+                      cd /home/webshum/web-shum.com.ua/bigwin/BIG-WIN
+                      git pull origin develop
 
-						- name: Deploy to production
-							if: github.ref == 'refs/heads/master'
-							uses: appleboy/ssh-action@v1.0.3
-							with:
-									host: 91.206.201.58
-									username: webshum
-									password: Serhi199029
-									script: |
-											cd /home/webshum/web-shum.com.ua/bigwin/BIG-WIN
-											git pull origin master
+            - name: Deploy to production
+              if: github.ref == 'refs/heads/master'
+              uses: appleboy/ssh-action@v1.0.3
+              with:
+                  host: 91.206.201.58
+                  username: webshum
+                  password: Serhi199029
+                  script: |
+                      cd /home/webshum/web-shum.com.ua/bigwin/BIG-WIN
+                      git pull origin master
 
-						- name: Send Telegram message
-							if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/develop'
-							uses: appleboy/telegram-action@v0.1.0
-							with:
-									to: 483570610
-									token: 7498219378:AAE_F1DBIKvMraKcyY7-ToHGA-KSTNqXrEM
-									message: |
-											Deployment successful on branch ${{ github.ref }}
+            - name: Send Telegram message
+              if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/develop'
+              uses: appleboy/telegram-action@v0.1.0
+              with:
+                  to: 483570610
+                  token: 7498219378:AAE_F1DBIKvMraKcyY7-ToHGA-KSTNqXrEM
+                  message: |
+                      Deployment successful on branch ${{ github.ref }}
