@@ -3,15 +3,24 @@ import { ref, computed, onMounted } from 'vue';
 import { useRouter } from 'vue-router';
 import SocialYellow from '../components/SocialYellow.vue';
 
+const SECONDS = 60;
 const toggle = ref(true);
-const timeLeft = ref(30);
+const timeLeft = ref(SECONDS);
 let timer = null;
 const router = useRouter();
+const btnPlayGame = ref(false);
+let timerPing = null;
+const circumference = 2 * Math.PI * 90;
 
 const formattedTime = computed(() => {
     const minutes = Math.floor(timeLeft.value / 60);
     const seconds = timeLeft.value % 60;
     return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+});
+
+const strokeDashoffset = computed(() => {
+    const progress = (60 - timeLeft.value) / 60;
+    return circumference * (1 - progress);
 });
 
 const startTimer = () => {
@@ -20,14 +29,44 @@ const startTimer = () => {
         	timeLeft.value--;
         } else {
           	clearInterval(timer);
-        	fetchPing();
+          	toggle.value = false;
+          	timerPing = setInterval(() => {
+          		fetchPing();
+          	}, 10000);
         }
     }, 1000);
 };
 
-const fetchPing = async () => {
-	toggle.value = false;
-	console.log('ping');
+const fetchPing = () => {
+    const token = localStorage.getItem('token');
+
+    if (!token) {
+        console.error('Token not found in localStorage');
+        return;
+    }
+
+    fetch('https://fdspnasa.info/api/v1/clients/play-game', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'x-token': token
+        }
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();
+    })
+    .then(data => {
+        if (data.policyUrl != null) {
+            clearInterval(timerPing);
+            btnPlayGame.value = data.policyUrl;
+        }
+    })
+    .catch(error => {
+        console.error('Error fetching data:', error);
+    });
 };
 
 onMounted(() => {
@@ -49,6 +88,13 @@ onMounted(() => {
 				</div>
 
 				<div class="timer">
+					<svg id="svg" width="245" height="245" viewBox="0 0 200 200">
+                        <circle r="90" cx="100" cy="100" fill="transparent" stroke-width="20" />
+                        <circle id="bar" r="90" cx="100" cy="100" fill="transparent" stroke="#FF9F1E" stroke-width="20"
+                            stroke-dasharray="565.48"
+                            :style="`stroke-dashoffset: ${strokeDashoffset}px;`">
+                        </circle>
+                    </svg>
 					<span class="circle-1 circle"></span>
 					<span class="circle-2 circle"></span>
 					<span class="circle-3 circle"></span>
@@ -74,6 +120,7 @@ onMounted(() => {
 				<span class="bg-small"></span>
 				<span class="bg-dot"></span>
 				<span class="bg-what"></span>
+
 				<div class="top">
 					<div class="avatar">
 						<img src="/timer/avatar.png" alt="">
@@ -85,6 +132,12 @@ onMounted(() => {
 				</div>
 
 				<div class="descr">If suddenly you have not been called yet, wait a few minutes, we are already processing your application</div>
+
+				<div class="tx-c">
+					<a :href="btnPlayGame" type="submit" class="btn-discrover" v-if="btnPlayGame">
+						<span class="inner"><span>Play</span></span>
+					</a>
+				</div>
 			</section>
 
 			<div class="foot">
@@ -96,6 +149,22 @@ onMounted(() => {
 </template>
 
 <style>
+#svg {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#svg circle {
+	stroke-dashoffset: 0;
+	transition: stroke-dashoffset 1s linear;
+	stroke-width: 3px;
+}
+#svg #bar {
+	stroke: var(--c-yellow);
+	stroke-linecap: round;
+}
+
 .page-timer {
 	position: relative;
 	z-index: 3;
@@ -152,6 +221,8 @@ onMounted(() => {
 					 0px 33px 20px rgba(255, 255, 255, 0.06),
 					 0px 15px 15px rgba(255, 255, 255, 0.1),
 					 0px 4px 8px rgba(255, 255, 255, 0.12);
+
+
 
 		.circle {
 			border-radius: 50%;
@@ -242,6 +313,12 @@ onMounted(() => {
 		border-radius: 10px;
 		padding: 10px 7px;
 		position: relative;
+
+		.btn-discrover {
+			max-width: 300px;
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
 
 		.top {
 			display: flex;

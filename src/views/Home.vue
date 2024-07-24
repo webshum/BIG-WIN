@@ -2,6 +2,7 @@
 import {RouterLink} from 'vue-router';
 import Banner from '../components/Banner.vue';
 import Social from '../components/Social.vue';
+import Footer from '../components/Footer.vue';
 </script>
 
 <template>
@@ -91,6 +92,8 @@ import Social from '../components/Social.vue';
 			</div>
 		</div>
 	</main>
+
+	<Footer/>
 </template>
 
 <style>

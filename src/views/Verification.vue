@@ -158,7 +158,7 @@ onMounted(() => {
 				</div>
 			</form>
 
-			<!-- <div class="foot tx-c">Having problems? <a href="#">Contact support</a></div> -->
+			<div class="foot tx-c">Having problems? <a href="#">Contact support</a></div>
 		</div>
 
 		<div class="global-error" v-if="globalError">
@@ -173,6 +173,7 @@ onMounted(() => {
 	position: relative;
 	z-index: 3;
 	padding-bottom: 50px;
+	height: calc(100vh - 115px);
 
 	.foot {
 		margin-top: 15px;

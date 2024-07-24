@@ -1,6 +1,5 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router';
-import Footer from './components/Footer.vue';
 import Header from './components/Header.vue';
 </script>
 
@@ -11,8 +10,6 @@ import Header from './components/Header.vue';
 		<main class="main">
 			<RouterView/>
 		</main>
-
-		<Footer/>
 	</div>
 
 	<svg class="d-none">
@@ -26,7 +23,10 @@ import Header from './components/Header.vue';
 .wrapper {
 	display: flex;
 	flex-direction: column;
+	overflow: hidden;
 
-	.main {flex-grow: 1;}
+	.main {
+		height: 100%;
+	}
 }
 </style>

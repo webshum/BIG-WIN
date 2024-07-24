@@ -1,7 +1,7 @@
 <template>
 	<header id="header">
 		<div class="center tx-c">
-			<a href="#" class="logo">
+			<a href="/" class="logo">
 				<img src="/header/logo.svg" alt="">
 				<div class="bg"></div>
 			</a>
@@ -30,6 +30,8 @@
 	.logo {
 		display: inline-block;
 		position: relative;
+		max-width: 120px;
+		z-index: 3;
 
 		&:before {
 			content: '';

@@ -161,6 +161,7 @@ onMounted(async () => {
 <style>
 .page-write {
 	position: relative;
+	height: calc(100vh - 115px);
 
 	.form {
 		padding: 25px 0 50px 0;

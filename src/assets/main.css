@@ -16,8 +16,6 @@
 	--awant: 'ITC Avant Garde Gothic Std', sans-serif;
 }
 
-html, body, #app, .wrapper {height: 100%;}
-
 body {
 	font-size: 16px;
 	font-family: var(--awant);
