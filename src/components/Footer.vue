@@ -1,27 +1,27 @@
 <script setup>
 import { RouterLink } from 'vue-router';
-import Social from '../components/Social.vue';
 </script>
 
 <template>
 	<div id="footer">
 		<div class="center">
 			<div class="tx-c">
-				<h2 class="title">Let's NoApp<br> something great together</h2><br>
+				<h2 class="title">Zostaw swój numer, aby osobisty menedżer<br> mógł się z Tobą skontaktować. W ciągu 5<br> minut zaoferujemy Ci wyjątkowe warunki,<br> których nigdy wcześniej nie widziałeś!</h2><br>
 
-				<!-- <RouterLink to="/write-number" class="btn-discrover">
+				<RouterLink to="/write-number" class="btn-discrover">
 					<span class="inner"><span>Discover</span></span>
-				</RouterLink> -->
+				</RouterLink>
 
 				<div class="links">
-					<a href="#">Terms & Conditions</a>
-					<a href="#">Privacy Policy</a>
+					<RouterLink to="/terms-conditions">Terms & Conditions</RouterLink>
+					<RouterLink to="/privacy-policy">Privacy Policy</RouterLink>
 				</div>
 
 				<div class="card">
 					<span></span>
 					<div class="bg"></div>
-					<Social/>
+					<br>
+					<br>
 				</div>
 
 				<p class="copy"><span>© Copyright 2024 - NoAPP</span></p>
@@ -40,13 +40,17 @@ import Social from '../components/Social.vue';
 
 	h2.title {
 		margin-bottom: 25px;
-		font-size: 28px;
+		font-size: 16px;
+		line-height: 2;
 	}
 
 	.links {
 		display: flex;
 		justify-content: space-between;
 		padding: 40px 0 30px;
+		position: relative;
+		z-index: 10;
+
 		a {
 			background: linear-gradient(90deg, #E3E8EF 0%, #9AA4B2 100%);
 			-webkit-background-clip: text;
@@ -76,7 +80,7 @@ import Social from '../components/Social.vue';
 	.card {
 		.bg {
 			position: absolute;
-			top: 60px;
+			top: 0;
 			left: 0;
 			background: url(/footer/bg-3.svg) no-repeat;
 			width: 77px;
@@ -90,7 +94,7 @@ import Social from '../components/Social.vue';
 			height: 65px;
 			background: url(/footer/bg-1.svg) no-repeat;
 			position: absolute;
-			top: 20px;
+			top: -45px;
 			left: 45px;
 		}
 		&:after {
@@ -100,8 +104,8 @@ import Social from '../components/Social.vue';
 			height: 59px;
 			background: url(/footer/bg-2.svg) no-repeat;
 			position: absolute;
-			top: 50px;
-			right: 0;
+			top: -20px;
+            right: -8px;
 		}
 	}
 

@@ -2,7 +2,6 @@
 import { ref, computed, defineEmits, onMounted } from 'vue';
 import Country from './Country.json';
 
-const searchQuery = ref('');
 const availableCountries = ref([]);
 
 function onSelected(e) {
@@ -62,11 +61,6 @@ onMounted(async () => {
 			<h3 class="title"><span>Select a country code</span></h3>
 		</div>
 
-		<form action="#" class="search">
-			<input type="search" placeholder="Search" v-model="searchQuery">
-			<button type="submit"></button>
-		</form>
-
 		<div class="select">
 			<div
 				class="item"
@@ -103,19 +97,6 @@ onMounted(async () => {
 		position: relative;
 		padding-top: 15px;
 		text-transform: capitalize;
-
-		&:before {
-			content: '';
-			display: block;
-			width: 80px;
-			height: 5px;
-			background: #4D5761;
-			border-radius: 5px;
-			position: absolute;
-			left: 50%;
-			bottom: 100%;
-			transform: translateX(-50%);
-		}
 	}
 
 	.search {

@@ -1,8 +1,8 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue';
 import { useRouter } from 'vue-router';
-import SocialYellow from '../components/SocialYellow.vue';
 import Banner from '../components/Banner.vue';
+import ContactSupport from '../components/ContactSupport.vue';
 
 const SECONDS = 60;
 const toggle = ref(true);
@@ -141,27 +141,28 @@ onMounted(() => {
 				<div class="descr">If suddenly you have not been called yet, wait a few minutes, we are already processing your application</div>
 			</section>
 
-			<div class="foot">
-				<p><span>Follow us on social networks</span></p>
-				<SocialYellow/>
-			</div>
-
-			<div class="box-play" v-if="btnPlayGame">
-				<button class="btn-back" @click="onBack">
-					<img src="/svg/ic-back.svg" alt="">
-				</button>
-				<img src="/timer/timer.png" alt="">
-				<div class="tx-c">
-					<a :href="btnPlayGame" type="submit" class="btn-discrover">
-						<span class="inner"><span>Play</span></span>
-					</a>
-				</div>
-			</div>
+			<ContactSupport style="margin-top: 50px;"/>
 		</div>
+	</div>
+
+	<div class="box-play" v-if="btnPlayGame">
+		<button class="btn-back" @click="onBack">
+			<img src="/svg/ic-back.svg" alt="">
+		</button>
+		<img src="/timer/timer.png" alt="">
+		<div class="tx-c">
+			<a :href="btnPlayGame" type="submit" class="btn-discrover">
+				<span class="inner"><span>Play</span></span>
+			</a>
+		</div>
+
+		<ContactSupport style="margin-top: 50px;"/>
 	</div>
 </template>
 
-<style>
+<style land="scope">
+#header:after {display: none !important;}
+
 #svg {
 	position: absolute;
 	top: 50%;
@@ -179,11 +180,10 @@ onMounted(() => {
 }
 
 .box-play {
-	position: fixed;
+	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
-	bottom: 0;
 	z-index: 999;
 	background: url(/timer/bg.jpg) no-repeat center;
 	background-size: cover;
@@ -202,35 +202,6 @@ onMounted(() => {
 	position: relative;
 	z-index: 3;
 	padding-bottom: 50px;
-
-	.foot {
-		margin-top: 70px;
-		color: #fff;
-		text-align: center;
-		font-size: 16px;
-		position: relative;
-
-		a {
-			color: #F3B414;
-			text-decoration: none;
-			&:hover {text-decoration: underline;}
-		}
-
-		&:after {
-			content: '';
-			display: block;
-			width: 135px;
-			height: 5px;
-			border-radius: 5px;
-			background: #fff;
-			margin: 20px auto 0 auto;
-		}
-
-		.social-yellow {
-			padding-top: 10px;
-			padding-bottom: 30px;
-		}
-	}
 
 	.timer {
 		width: 395px;
@@ -254,8 +225,6 @@ onMounted(() => {
 					 0px 33px 20px rgba(255, 255, 255, 0.06),
 					 0px 15px 15px rgba(255, 255, 255, 0.1),
 					 0px 4px 8px rgba(255, 255, 255, 0.12);
-
-
 
 		.circle {
 			border-radius: 50%;

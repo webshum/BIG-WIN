@@ -3,6 +3,8 @@ import Home from '../views/Home.vue';
 import WriteNumber from '../views/WriteNumber.vue';
 import Verification from '../views/Verification.vue';
 import Timer from '../views/Timer.vue';
+import PrivacyPolicy from '../views/PrivacyPolicy.vue';
+import TermsConditions from '../views/TermsConditions.vue';
 
 const router = createRouter({
 	history: createWebHistory(import.meta.env.BASE_URL),
@@ -26,6 +28,16 @@ const router = createRouter({
 	      	path: '/timer',
 	      	name: 'timer',
 	      	component: Timer
+	    },
+	    {
+	      	path: '/privacy-policy',
+	      	name: 'PrivacyPolicy',
+	      	component: PrivacyPolicy
+	    },
+	    {
+	      	path: '/terms-conditions',
+	      	name: 'TermsConditions',
+	      	component: TermsConditions
 	    }
 	]
 })

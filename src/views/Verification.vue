@@ -1,6 +1,7 @@
 <script setup>
 import { ref, computed, onMounted, nextTick } from 'vue';
 import { useRouter } from 'vue-router';
+import ContactSupport from '../components/ContactSupport.vue';
 
 const SECONDS = 60;
 const disabled = ref(true);
@@ -165,12 +166,12 @@ onMounted(() => {
 
 				<div class="tx-c">
 					<button type="submit" class="btn-discrover" :class="{disabled: disabled}" @click="onSubmit">
-						<span class="inner"><span>submit</span></span>
+						<span class="inner"><span>enter correct code</span></span>
 					</button>
 				</div>
 			</form>
 
-			<div class="foot tx-c">Having problems? <a href="#">Contact support</a></div>
+			<ContactSupport/>
 		</div>
 
 		<div class="global-error" v-if="globalError">
@@ -187,29 +188,11 @@ onMounted(() => {
 	padding-bottom: 50px;
 	height: 100vh;
 
-	.foot {
-		margin-top: 15px;
+	h3.title {
 		color: #fff;
-		text-align: center;
-		font-size: 12px;
-		font-weight: 600;
-		position: relative;
-
-		a {
-			color: #F3B414;
-			text-decoration: none;
-			&:hover {text-decoration: underline;}
-		}
-
-		&:after {
-			content: '';
-			display: block;
-			width: 135px;
-			height: 5px;
-			border-radius: 5px;
-			background: #fff;
-			margin: 20px auto 0 auto;
-		}
+		background: none;
+		-webkit-background-clip: inherit;
+		-webkit-text-fill-color: inherit;
 	}
 }
 

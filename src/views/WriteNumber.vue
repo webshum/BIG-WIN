@@ -2,6 +2,7 @@
 import { ref, computed, onMounted } from 'vue';
 import { useRouter } from 'vue-router';
 import SelectCountryCode from '../components/SelectCountryCode.vue';
+import ContactSupport from '../components/ContactSupport.vue';
 import Country from '../components/Country.json';
 
 const flag = ref(false);
@@ -161,6 +162,8 @@ onMounted(async () => {
 					<div class="error" v-if="errorAgree">Select the check mark</div>
 				</label>
 			</form>
+
+			<ContactSupport/>
 		</div>
 
 		<div class="global-error" v-if="globalError">
