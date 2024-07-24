@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router';
 import Header from './components/Header.vue';
+import CookieConsent from './components/CookieConsent.vue';
 </script>
 
 <template>
@@ -11,6 +12,8 @@ import Header from './components/Header.vue';
 			<RouterView/>
 		</main>
 	</div>
+
+	<CookieConsent/>
 
 	<svg class="d-none">
 		<symbol viewBox="0 0 17 13" id="logo">
