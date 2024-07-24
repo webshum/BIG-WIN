@@ -27,6 +27,15 @@ function onInput() {
 	disabled.value = false;
 }
 
+function onFocus() {
+	setTimeout(() => {
+        window.scrollTo({
+            top: document.body.scrollHeight,
+            behavior: 'smooth'
+        });
+    }, 300);
+}
+
 function onAgree() {
 	if (agree.value) {
 		errorAgree.value = false;
@@ -133,6 +142,7 @@ onMounted(async () => {
 						placeholder="mobile phone"
 						v-model="tel"
 						@input="onInput"
+						@focus="onFocus"
 					/>
 
 					<div class="error" v-if="errorPhone">Enter a phone number</div>

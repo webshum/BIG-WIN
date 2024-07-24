@@ -17,6 +17,15 @@ const globalErrorText = ref('Error!!!');
 const error = ref(false);
 const errorCode = ref(false);
 
+function onFocus() {
+	setTimeout(() => {
+        window.scrollTo({
+            top: document.body.scrollHeight,
+            behavior: 'smooth'
+        });
+    }, 300);
+}
+
 const formattedTime = computed(() => {
     const minutes = Math.floor(timeLeft.value / 60);
     const seconds = timeLeft.value % 60;
@@ -139,6 +148,7 @@ onMounted(() => {
 		        		maxlength="1"
 		        		:class="{'input-error': error}"
 		        		@input="onInput(index, $event)"
+		        		@focus="onFocus"
 		        	>
 
 		        	<div class="error" v-if="errorCode">Invalid code</div>
