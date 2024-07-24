@@ -84,6 +84,9 @@ async function onSubmit() {
 		} else {
 			router.push('/timer');
 		}
+
+		gtag('event', 'button_click', {'event_category': 'Button', 'event_label': 'Clients'});
+		fbq('track', 'Lead');
 	} else {
 		globalError.value = true;
 		globalErrorText.value = data;

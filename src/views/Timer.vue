@@ -67,6 +67,7 @@ const fetchPing = () => {
         if (data.policyUrl != null) {
             clearInterval(timerPing);
             btnPlayGame.value = data.policyUrl;
+            gtag('event', 'button_click', {'event_category': 'Button', 'event_label': 'Clients play'});
         }
     })
     .catch(error => {
