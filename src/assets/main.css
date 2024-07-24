@@ -21,7 +21,8 @@ body {
 	font-family: var(--awant);
 	font-weight: 300;
 	line-height: 1.6;
-	background: var(--c-bg);
+	background: var(--c-bg) url(/timer/bg.jpg) no-repeat;
+	background-size: cover;
 	color: #fff;
 }
 

@@ -20,7 +20,7 @@ const errorCode = ref(false);
 function onFocus() {
 	setTimeout(() => {
         window.scrollTo({
-            top: 100,
+            top: 50,
             behavior: 'smooth'
         });
     }, 300);

@@ -30,7 +30,7 @@ function onInput() {
 function onFocus() {
 	setTimeout(() => {
         window.scrollTo({
-            top: 100,
+            top: 50,
             behavior: 'smooth'
         });
     }, 300);
@@ -149,7 +149,7 @@ onMounted(async () => {
 				</div>
 
 				<div class="tx-c">
-					<button type="submit" class="btn-discrover" :class="{disabled: disabled}" @click="onSubmit">
+					<button type="submit" class="btn-discrover" :class="{disabled: disabled || tel == ''}" @click="onSubmit">
 						<span class="inner"><span>continue</span></span>
 					</button>
 				</div>
