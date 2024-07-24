@@ -2,6 +2,7 @@
 import { ref, computed, onMounted } from 'vue';
 import { useRouter } from 'vue-router';
 import SocialYellow from '../components/SocialYellow.vue';
+import Banner from '../components/Banner.vue';
 
 const SECONDS = 60;
 const toggle = ref(true);
@@ -11,6 +12,10 @@ const router = useRouter();
 const btnPlayGame = ref(false);
 let timerPing = null;
 const circumference = 2 * Math.PI * 90;
+
+function onBack() {
+	btnPlayGame.value = false;
+}
 
 const formattedTime = computed(() => {
     const minutes = Math.floor(timeLeft.value / 60);
@@ -134,17 +139,23 @@ onMounted(() => {
 				</div>
 
 				<div class="descr">If suddenly you have not been called yet, wait a few minutes, we are already processing your application</div>
-
-				<div class="tx-c">
-					<a :href="btnPlayGame" type="submit" class="btn-discrover" v-if="btnPlayGame">
-						<span class="inner"><span>Play</span></span>
-					</a>
-				</div>
 			</section>
 
 			<div class="foot">
 				<p><span>Follow us on social networks</span></p>
 				<SocialYellow/>
+			</div>
+
+			<div class="box-play" v-if="btnPlayGame">
+				<button class="btn-back" @click="onBack">
+					<img src="/svg/ic-back.svg" alt="">
+				</button>
+				<img src="/timer/timer.png" alt="">
+				<div class="tx-c">
+					<a :href="btnPlayGame" type="submit" class="btn-discrover">
+						<span class="inner"><span>Play</span></span>
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -165,6 +176,26 @@ onMounted(() => {
 #svg #bar {
 	stroke: var(--c-yellow);
 	stroke-linecap: round;
+}
+
+.box-play {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 999;
+	background: url(/timer/bg.jpg) no-repeat center;
+	background-size: cover;
+	padding: 50px 0;
+	text-align: center;
+
+	img {
+		max-width: 500px;
+		width: 100%;
+	}
+
+	.tx-c {padding: 0 15px;}
 }
 
 .page-timer {
