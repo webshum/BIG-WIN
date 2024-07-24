@@ -185,7 +185,7 @@ onMounted(() => {
 	position: relative;
 	z-index: 3;
 	padding-bottom: 50px;
-	height: calc(100vh - 115px);
+	height: 100vh;
 
 	.foot {
 		margin-top: 15px;
