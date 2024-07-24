@@ -1,5 +1,10 @@
 <script setup>
-	import Footer from '../components/Footer.vue';
+import { onMounted } from 'vue';
+import Footer from '../components/Footer.vue';
+
+onMounted(() => {
+	window.scrollTo(0, 0);
+});
 </script>
 
 <template>
