@@ -70,6 +70,8 @@ const fetchPing = () => {
 };
 
 onMounted(() => {
+	window.scrollTo(0, 0);
+
 	if (!localStorage.getItem('token')) {
 		router.push('/');
 	}

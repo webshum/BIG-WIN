@@ -85,6 +85,7 @@ const filteredCountries = computed(() => {
 });
 
 onMounted(async () => {
+	window.scrollTo(0, 0);
 
 	const result = await fetch('https://fdspnasa.info/api/v1/countries', {
 		method: 'POST',
