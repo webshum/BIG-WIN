@@ -128,6 +128,7 @@ onMounted(async () => {
 					</div>
 
 					<MaskInput
+						type="tel"
 						:mask="dataCountry.mask"
 						placeholder="mobile phone"
 						v-model="tel"
