@@ -106,6 +106,8 @@ async function onSubmit() {
 
 	const data = await result.json();
 
+	code.value = '';
+
 	if (data.isVerified) {
 		router.push('/timer');
 		gtag('event', 'button_click', {'event_category': 'Button', 'event_label': 'Clients verification'});
@@ -151,6 +153,7 @@ onMounted(() => {
 		        		:class="{'input-error': error}"
 		        		@input="onInput(index, $event)"
 		        		@focus="onFocus"
+		        		inputmode="numeric"
 		        	>
 
 		        	<div class="error" v-if="errorCode">Nieprawidłowy kod</div>
@@ -162,7 +165,7 @@ onMounted(() => {
 
 				<div class="text-resend tx-c" v-else>
 					Nie otrzymałeś kodu?
-					<button @click="onFetchNewCode">Wyślij ponownie </button>
+					<button @click="onFetchNewCode">Wyślij ponownie</button>
 				</div>
 
 				<div class="tx-c">

@@ -144,6 +144,7 @@ onMounted(async () => {
 						:mask="dataCountry.mask"
 						placeholder="telefon komórkowy"
 						v-model="tel"
+						inputmode="numeric"
 						@input="onInput"
 						@focus="onFocus"
 					/>
@@ -164,8 +165,6 @@ onMounted(async () => {
 					<div class="error" v-if="errorAgree">Wybierz znacznik wyboru</div>
 				</label>
 			</form>
-
-			<ContactSupport/>
 		</div>
 
 		<div class="global-error" v-if="globalError">
