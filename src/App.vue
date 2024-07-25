@@ -13,7 +13,7 @@ import CookieConsent from './components/CookieConsent.vue';
 		</main>
 	</div>
 
-	<CookieConsent/>
+	<!-- <CookieConsent/> -->
 
 	<svg class="d-none">
 		<symbol viewBox="0 0 17 13" id="logo">
