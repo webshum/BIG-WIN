@@ -25,7 +25,7 @@ const router = createRouter({
 	      	component: Verification
 	    },
 	    {
-	      	path: '/timer',
+	      	path: '/timer-get',
 	      	name: 'timer',
 	      	component: Timer
 	    },
