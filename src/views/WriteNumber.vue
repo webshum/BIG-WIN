@@ -85,8 +85,10 @@ async function onSubmit() {
 			router.push('/timer-verifi');
 		}
 
-		gtag('event', 'button_click', {'event_category': 'Button', 'event_label': 'Clients'});
-		fbq('track', 'Lead');
+		gtag('event', 'button_click', {
+	    	'event_category': 'Button',
+	    	'event_label': 'Clients'
+	    });
 	} else {
 		globalError.value = true;
 		globalErrorText.value = data;

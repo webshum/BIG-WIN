@@ -8,16 +8,38 @@
 
     <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="20b65480-b02e-4dbc-af48-21bc353930c4" data-blockingmode="auto" type="text/javascript"></script>
 
+    <script>
+    	function getQueryParameter(param) {
+			let params = new URLSearchParams(window.location.search);
+			return params.get(param);
+		}
+    </script>
+
     <!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 	})(window,document,'script','dataLayer','GTM-M3ZJ7ZFW');</script>
+
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag() { dataLayer.push(arguments); }
+
+	  // Initialize gtag
+	  gtag('js', new Date());
+	  gtag('config', 'GTM-M3ZJ7ZFW');
+	</script>
 	<!-- End Google Tag Manager -->
 
 	<!-- Facebook Pixel -->
 	<script>
+		let pixel = getQueryParameter('pixel');
+
+		if (window.location.pathname == '/timer-verifi' || window.location.pathname == '/timer-verifi/') {
+			pixel = null;
+		}
+
 	    !function(f,b,e,v,n,t,s)
 	    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 	    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -26,10 +48,10 @@
 	    t.src=v;s=b.getElementsByTagName(e)[0];
 	    s.parentNode.insertBefore(t,s)}(window, document,'script',
 	    'https://connect.facebook.net/en_US/fbevents.js');
-	    fbq('init', 'YOUR_PIXEL_ID');
+	    fbq('init', pixel);
 	    fbq('track', 'PageView');
 	</script>
-    <script type="module" crossorigin src="/assets/index-CD5-BqTf.js"></script>
+    <script type="module" crossorigin src="/assets/index-CG41wqPU.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-O16SQ3r6.css">
   </head>
   <body>
