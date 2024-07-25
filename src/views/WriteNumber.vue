@@ -82,7 +82,7 @@ async function onSubmit() {
 		if (data.needVerif) {
 			router.push('/verification');
 		} else {
-			router.push('/timer');
+			router.push('/timer-verifi');
 		}
 
 		gtag('event', 'button_click', {'event_category': 'Button', 'event_label': 'Clients'});
