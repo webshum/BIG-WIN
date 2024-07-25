@@ -207,6 +207,7 @@ onMounted(() => {
 		gap: 8px;
 
 		input {
+			border-radius: 0;
 			background: none;
 			height: 65px;
 			text-align: center;
