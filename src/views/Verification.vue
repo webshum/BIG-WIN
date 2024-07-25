@@ -109,7 +109,7 @@ async function onSubmit() {
 	code.value = '';
 
 	if (data.isVerified) {
-		router.push('/timer');
+		router.push('/timer-verifi');
 		gtag('event', 'button_click', {'event_category': 'Button', 'event_label': 'Clients verification'});
 	} else {
 		document.querySelector('.form-verification').reset();
