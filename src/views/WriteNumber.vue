@@ -125,14 +125,13 @@ onMounted(async () => {
 	<div class="page-write">
 		<div class="center">
 			<div class="tx-c">
-				<h3 class="title">Sign up with your number</h3>
-				<p>There are many variations of passages<br>of Lorem Ipsum available</p>
+				<h3 class="title">Zarejestruj się, podając swój numer</h3>
 			</div>
 
 			<SelectCountryCode v-if="flag" @onFlag="flag = $event" @onCode="dataCountry = $event"/>
 
 			<form action="/verification" class="form" @submit.prevent>
-				<div class="label-text">Write your phone number</div>
+				<div class="label-text">Wpisz swój numer telefonu</div>
 
 				<div class="input-tel field" :class="{'input-error': error}">
 					<div class="code" @click="flag = true">
@@ -149,20 +148,20 @@ onMounted(async () => {
 						@focus="onFocus"
 					/>
 
-					<div class="error" v-if="errorPhone">Enter a phone number</div>
+					<div class="error" v-if="errorPhone">Wprowadź numer telefonu</div>
 				</div>
 
 				<div class="tx-c">
 					<button type="submit" class="btn-discrover" :class="{disabled: disabled || tel == ''}" @click="onSubmit">
-						<span class="inner"><span>continue</span></span>
+						<span class="inner"><span>Kontynuować</span></span>
 					</button>
 				</div>
 
 				<label class="input-checkout field">
 					<input type="checkbox" v-model="agree" @change="onAgree">
 					<div class="input"></div>
-					<div class="text">I am over 18 years old and i agree to the terms of use of the site</div>
-					<div class="error" v-if="errorAgree">Select the check mark</div>
+					<div class="text">Mam ukończone 18 lat i akceptuję warunki korzystania z witryny</div>
+					<div class="error" v-if="errorAgree">Wybierz znacznik wyboru</div>
 				</label>
 			</form>
 
@@ -171,7 +170,7 @@ onMounted(async () => {
 
 		<div class="global-error" v-if="globalError">
 			<span>{{ globalErrorText }}</span><br>
-			<button @click="globalError = false">close</button>
+			<button @click="globalError = false">zamknąć</button>
 		</div>
 	</div>
 </template>

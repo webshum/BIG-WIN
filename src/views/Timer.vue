@@ -91,8 +91,8 @@ onMounted(() => {
 		<div class="center">
 			<div class="section" v-if="toggle">
 				<div class="tx-c">
-					<h3 class="title">thank you for your<br> request</h3>
-					<p><span>Our specialist has already received your application and will contact you within 1 minute</span></p>
+					<h3 class="title">Dziękujemy za zgłoszenie</h3>
+					<p><span>Nasz specjalista otrzymał już Twoje zgłoszenie i skontaktuje się z Tobą w ciągu 1 minuty.</span></p>
 				</div>
 
 				<div class="timer">
@@ -139,7 +139,7 @@ onMounted(() => {
 					</div>
 				</div>
 
-				<div class="descr">If suddenly you have not been called yet, wait a few minutes, we are already processing your application</div>
+				<div class="descr">Jeśli nagle nie otrzymałeś jeszcze telefonu, poczekaj kilka minut, już przetwarzamy Twoją aplikację</div>
 			</section>
 
 			<ContactSupport style="margin-top: 50px;"/>
@@ -153,7 +153,7 @@ onMounted(() => {
 		<img src="/timer/timer.png" alt="">
 		<div class="tx-c">
 			<a :href="btnPlayGame" type="submit" class="btn-discrover">
-				<span class="inner"><span>Play</span></span>
+				<span class="inner"><span>Grać</span></span>
 			</a>
 		</div>
 

@@ -24,7 +24,7 @@ async function onLink() {
 </script>
 
 <template>
-	<div class="foot-problems tx-c">Having problems? <a href="#" @click="onLink"><span v-if="text">Contact support</span><span v-else>Sent</span></a></div>
+	<div class="foot-problems tx-c">Masz jakieś problemy? <a href="#" @click="onLink"><span v-if="text">Kontakt z pomocą techniczną</span><span v-else>Wysłano</span></a></div>
 </template>
 
 <style>

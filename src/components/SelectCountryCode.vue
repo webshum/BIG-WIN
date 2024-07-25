@@ -58,7 +58,7 @@ onMounted(async () => {
 		</button>
 
 		<div class="tx-c">
-			<h3 class="title"><span>Select a country code</span></h3>
+			<h3 class="title"><span>Wybierz kod kraju</span></h3>
 		</div>
 
 		<div class="select">

@@ -136,8 +136,8 @@ onMounted(() => {
 	<div class="page-verification">
 		<div class="center">
 			<div class="tx-c">
-				<h3 class="title">Verification</h3>
-				<p><span>Enter the 6 digit code sent to {{ myPhone }}</span></p>
+				<h3 class="title">Weryfikacja</h3>
+				<p><span>Wprowadź 6-cyfrowy kod wysłany na numer {{ myPhone }}</span></p>
 			</div>
 
 			<form action="/timer" class="form-verification" @submit.prevent>
@@ -153,21 +153,21 @@ onMounted(() => {
 		        		@focus="onFocus"
 		        	>
 
-		        	<div class="error" v-if="errorCode">Invalid code</div>
+		        	<div class="error" v-if="errorCode">Nieprawidłowy kod</div>
 		        </div>
 
 				<div class="text-timer tx-c" v-if="formattedTime !== '0:00'">
-					Resend the code after <span class="timer">{{ formattedTime }}</span> Support
+					Wyślij ponownie kod po <span class="timer">{{ formattedTime }}</span>
 				</div>
 
 				<div class="text-resend tx-c" v-else>
-					Didn’t receive the code?
-					<button @click="onFetchNewCode">Resend</button>
+					Nie otrzymałeś kodu?
+					<button @click="onFetchNewCode">Wyślij ponownie </button>
 				</div>
 
 				<div class="tx-c">
 					<button type="submit" class="btn-discrover" :class="{disabled: disabled}" @click="onSubmit">
-						<span class="inner"><span>enter correct code</span></span>
+						<span class="inner"><span>Wprowadź poprawny kod</span></span>
 					</button>
 				</div>
 			</form>

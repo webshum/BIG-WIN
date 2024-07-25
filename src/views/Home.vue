@@ -32,7 +32,7 @@ const optionsSplide = {
 			<div class="center">
 				<div class="group-buttons tx-c">
 					<RouterLink to="/write-number" class="btn-discrover">
-						<span class="inner"><span>Discover</span></span>
+						<span class="inner"><span>Odkryj</span></span>
 					</RouterLink>
 				</div>
 
@@ -44,7 +44,7 @@ const optionsSplide = {
 			<div class="partners">
 				<div class="center">
 					<div class="tx-c">
-						<h2 class="title">What is royal vip?</h2>
+						<h2 class="title">Czym jest Royal VIP?</h2>
 					</div>
 
 					<p class="tx-c"><span>Naszym celem jest zapewnienie usługi VIP wszystkim naszym użytkownikom, niezależnie od doświadczenia. Dołącz do nas i wynieś swoją grę na nowy poziom.</span></p>
@@ -82,7 +82,7 @@ const optionsSplide = {
 
 		<div class="reviews">
 			<div class="tx-c">
-				<h2 class="title">our reviews</h2>
+				<h2 class="title">Nasze recenzje</h2>
 			</div>
 
 			<Splide :options="optionsSplide" aria-label="Vue Splide Example">

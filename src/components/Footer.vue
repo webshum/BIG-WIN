@@ -9,12 +9,12 @@ import { RouterLink } from 'vue-router';
 				<h2 class="title">Zostaw swój numer, aby osobisty menedżer<br> mógł się z Tobą skontaktować. W ciągu 5<br> minut zaoferujemy Ci wyjątkowe warunki,<br> których nigdy wcześniej nie widziałeś!</h2><br>
 
 				<RouterLink to="/write-number" class="btn-discrover">
-					<span class="inner"><span>Discover</span></span>
+					<span class="inner"><span>Odkryj</span></span>
 				</RouterLink>
 
 				<div class="links">
-					<RouterLink to="/terms-conditions">Terms & Conditions</RouterLink>
-					<RouterLink to="/privacy-policy">Privacy Policy</RouterLink>
+					<RouterLink to="/terms-conditions">Regulamin</RouterLink>
+					<RouterLink to="/privacy-policy">Polityka prywatności</RouterLink>
 				</div>
 
 				<div class="card">
@@ -24,7 +24,7 @@ import { RouterLink } from 'vue-router';
 					<br>
 				</div>
 
-				<p class="copy"><span>© Copyright 2024 - NoAPP</span></p>
+				<p class="copy"><span>© Copyright 2024 - Royal VIP</span></p>
 			</div>
 		</div>
 	</div>
