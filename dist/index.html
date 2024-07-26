@@ -7,6 +7,7 @@
     <title>BIG WIN</title>
 
     <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="20b65480-b02e-4dbc-af48-21bc353930c4" data-blockingmode="auto" type="text/javascript"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-83XS8D6L7S"></script>
 
     <script>
     	function getQueryParameter(param) {
@@ -33,19 +34,15 @@
 		    fbq('init', localStorage.getItem('pixel'));
 		    fbq('track', 'PageView');
 
-			// Google Tag Manager
-			(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-			})(window,document,'script','dataLayer','G-83XS8D6L7S');
 
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-
-			gtag('config', 'G-83XS8D6L7S');
 		}
+
+		// Google Tag Manager
+			window.dataLayer = window.dataLayer || [];
+		    function gtag(){dataLayer.push(arguments);}
+		    gtag('js', new Date());
+
+		    gtag('config','G-83XS8D6L7S');
     </script>
     <script type="module" crossorigin src="/assets/index-CF6WnJPF.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-JkLjVbfl.css">
