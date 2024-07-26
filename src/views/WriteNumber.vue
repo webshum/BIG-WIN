@@ -53,6 +53,14 @@ async function onSubmit() {
 
 	if (!agree.value) {
 		errorAgree.value = true;
+
+		gtag('event', 'button_click', {
+	    	'event_category': 'Button',
+	    	'event_label': 'The check box is not selected'
+	    });
+
+	    fbq('track', 'The check box is not selected');
+
 		return false;
 	}
 
@@ -87,8 +95,10 @@ async function onSubmit() {
 
 		gtag('event', 'button_click', {
 	    	'event_category': 'Button',
-	    	'event_label': 'Clients'
+	    	'event_label': 'New clients'
 	    });
+
+	    fbq('track', 'New clients');
 	} else {
 		globalError.value = true;
 		globalErrorText.value = data;

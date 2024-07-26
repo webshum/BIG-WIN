@@ -13,46 +13,43 @@
 			let params = new URLSearchParams(window.location.search);
 			return params.get(param);
 		}
-    </script>
 
-    <!-- Google Tag Manager -->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-M3ZJ7ZFW');</script>
+		if (window.location.pathname.indexOf('play') != 1) {
+			let pixel = getQueryParameter('pixel');
 
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag() { dataLayer.push(arguments); }
+			if (pixel != null) {
+				localStorage.setItem('pixel', pixel);
+			}
 
-	  // Initialize gtag
-	  gtag('js', new Date());
-	  gtag('config', 'GTM-M3ZJ7ZFW');
-	</script>
-	<!-- End Google Tag Manager -->
+			// Facebook Pixel
+			!function(f,b,e,v,n,t,s)
+		    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		    n.queue=[];t=b.createElement(e);t.async=!0;
+		    t.src=v;s=b.getElementsByTagName(e)[0];
+		    s.parentNode.insertBefore(t,s)}(window, document,'script',
+		    'https://connect.facebook.net/en_US/fbevents.js');
+		    fbq('init', localStorage.getItem('pixel'));
+		    fbq('track', 'PageView');
 
-	<!-- Facebook Pixel -->
-	<script>
-		let pixel = getQueryParameter('pixel');
+			// Google Tag Manager
+			(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-M3ZJ7ZFW');
 
-		if (window.location.pathname == '/timer-verifi' || window.location.pathname == '/timer-verifi/') {
-			pixel = null;
+			window.dataLayer = window.dataLayer || [];
+			function gtag() { dataLayer.push(arguments); }
+
+			// Initialize gtag
+			gtag('js', new Date());
+			gtag('config', 'GTM-M3ZJ7ZFW');
 		}
-
-	    !function(f,b,e,v,n,t,s)
-	    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-	    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-	    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-	    n.queue=[];t=b.createElement(e);t.async=!0;
-	    t.src=v;s=b.getElementsByTagName(e)[0];
-	    s.parentNode.insertBefore(t,s)}(window, document,'script',
-	    'https://connect.facebook.net/en_US/fbevents.js');
-	    fbq('init', pixel);
-	    fbq('track', 'PageView');
-	</script>
-    <script type="module" crossorigin src="/assets/index-CG41wqPU.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-O16SQ3r6.css">
+    </script>
+    <script type="module" crossorigin src="/assets/index-CF6WnJPF.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-JkLjVbfl.css">
   </head>
   <body>
   	<!-- Google Tag Manager (noscript) -->

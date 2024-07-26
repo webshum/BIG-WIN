@@ -9,13 +9,8 @@ const toggle = ref(true);
 const timeLeft = ref(SECONDS);
 let timer = null;
 const router = useRouter();
-const btnPlayGame = ref(false);
 let timerPing = null;
 const circumference = 2 * Math.PI * 90;
-
-function onBack() {
-	btnPlayGame.value = false;
-}
 
 const formattedTime = computed(() => {
     const minutes = Math.floor(timeLeft.value / 60);
@@ -45,6 +40,7 @@ const startTimer = () => {
 const fetchPing = () => {
     const token = localStorage.getItem('token');
 
+    return false;
     if (!token) {
         console.error('Token not found in localStorage');
         return;
@@ -66,12 +62,18 @@ const fetchPing = () => {
     .then(data => {
         if (data.policyUrl != null) {
             clearInterval(timerPing);
-            btnPlayGame.value = data.policyUrl;
 
-            gtag('event', 'button_click', {
-		    	'event_category': 'Button',
-		    	'event_label': 'Clients play'
-		    });
+            router.push({
+				name: 'play',
+				params: {link: data.policyUrl}
+			});
+
+			gtag('event', 'qualified_lead', {
+				'event_category': 'leads',
+				'event_label': 'Qualified Lead'
+			});
+
+			fbq('track', 'qualified_lead');
         }
     })
     .catch(error => {
@@ -149,20 +151,6 @@ onMounted(() => {
 			<ContactSupport style="margin-top: 50px;"/>
 		</div>
 	</div>
-
-	<div class="box-play" v-if="btnPlayGame">
-		<button class="btn-back" @click="onBack">
-			<img src="/svg/ic-back.svg" alt="">
-		</button>
-		<img src="/timer/timer.png" alt="">
-		<div class="tx-c">
-			<a :href="btnPlayGame" type="submit" class="btn-discrover">
-				<span class="inner"><span>Grać</span></span>
-			</a>
-		</div>
-
-		<ContactSupport style="margin-top: 50px;"/>
-	</div>
 </template>
 
 <style land="scope">
@@ -182,25 +170,6 @@ onMounted(() => {
 #svg #bar {
 	stroke: var(--c-yellow);
 	stroke-linecap: round;
-}
-
-.box-play {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	z-index: 999;
-	background: url(/timer/bg.jpg) no-repeat center;
-	background-size: cover;
-	padding: 50px 0;
-	text-align: center;
-
-	img {
-		max-width: 500px;
-		width: 100%;
-	}
-
-	.tx-c {padding: 0 15px;}
 }
 
 .page-timer {

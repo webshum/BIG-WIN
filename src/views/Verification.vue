@@ -63,6 +63,13 @@ const onFetchNewCode = async () => {
 
 	timeLeft.value = SECONDS;
 	startTimer();
+
+	gtag('event', 'button_click', {
+    	'event_category': 'Button',
+    	'event_label': 'Request new code'
+    });
+
+    fbq('track', 'Request new code');
 };
 
 const onInput = (index, event) => {
@@ -111,10 +118,12 @@ async function onSubmit() {
 	if (data.isVerified) {
 		router.push('/timer-verifi');
 
-		gtag('event', 'button_click', {
+	    gtag('event', 'button_click', {
 	    	'event_category': 'Button',
 	    	'event_label': 'Clients verification'
 	    });
+
+	    fbq('track', 'Clients verification');
 	} else {
 		document.querySelector('.form-verification').reset();
 		errorCode.value = true;

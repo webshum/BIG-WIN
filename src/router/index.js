@@ -5,6 +5,7 @@ import Verification from '../views/Verification.vue';
 import Timer from '../views/Timer.vue';
 import PrivacyPolicy from '../views/PrivacyPolicy.vue';
 import TermsConditions from '../views/TermsConditions.vue';
+import Play from '../views/Play.vue';
 
 const router = createRouter({
 	history: createWebHistory(import.meta.env.BASE_URL),
@@ -38,6 +39,11 @@ const router = createRouter({
 	      	path: '/terms-conditions',
 	      	name: 'TermsConditions',
 	      	component: TermsConditions
+	    },
+	    {
+	      	path: '/play/:link',
+	      	name: 'play',
+	      	component: Play
 	    }
 	]
 })
