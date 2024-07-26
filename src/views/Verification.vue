@@ -69,7 +69,7 @@ const onFetchNewCode = async () => {
     	'event_label': 'Request new code'
     });
 
-    fbq('track', 'Request new code');
+    fbq('trackCustom', 'Request new code');
 };
 
 const onInput = (index, event) => {

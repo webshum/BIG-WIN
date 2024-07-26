@@ -40,7 +40,6 @@ const startTimer = () => {
 const fetchPing = () => {
     const token = localStorage.getItem('token');
 
-    return false;
     if (!token) {
         console.error('Token not found in localStorage');
         return;
@@ -73,7 +72,7 @@ const fetchPing = () => {
 				'event_label': 'Qualified Lead'
 			});
 
-			fbq('track', 'qualified_lead');
+			fbq('trackCustom', 'qualified_lead');
         }
     })
     .catch(error => {

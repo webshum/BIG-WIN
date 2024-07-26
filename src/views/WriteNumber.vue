@@ -59,7 +59,7 @@ async function onSubmit() {
 	    	'event_label': 'The check box is not selected'
 	    });
 
-	    fbq('track', 'The check box is not selected');
+	    fbq('trackCustom', 'The check box is not selected');
 
 		return false;
 	}
@@ -76,7 +76,7 @@ async function onSubmit() {
 			"name": "new client",
 			"phone": phone,
 			"countryCode": dataCountry.value.codeCountry,
-			"bundle": "string"
+			"bundle": "poland.vip.royal"
 		})
 	});
 
@@ -98,7 +98,7 @@ async function onSubmit() {
 	    	'event_label': 'New clients'
 	    });
 
-	    fbq('track', 'New clients');
+	    fbq('trackCustom', 'New clients');
 	} else {
 		globalError.value = true;
 		globalErrorText.value = data;
