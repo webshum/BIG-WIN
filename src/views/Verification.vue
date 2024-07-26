@@ -191,7 +191,7 @@ onMounted(() => {
 			<ContactSupport/>
 		</div>
 
-		<div class="global-error" v-if="globalError">
+		<div class="global-error" v-if="false">
 			<span>{{ globalErrorText }}</span><br>
 			<button @click="globalError = false">close</button>
 		</div>

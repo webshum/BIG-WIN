@@ -7,7 +7,6 @@
     <title>BIG WIN</title>
 
     <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="20b65480-b02e-4dbc-af48-21bc353930c4" data-blockingmode="auto" type="text/javascript"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-83XS8D6L7S"></script>
 
     <script>
     	function getQueryParameter(param) {
@@ -34,17 +33,20 @@
 		    fbq('init', localStorage.getItem('pixel'));
 		    fbq('track', 'PageView');
 
+		    // Google Tag Manager
+		    var script = document.createElement('script');
+		    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-83XS8D6L7S';
+		    script.async = true;
+		    document.head.appendChild(script);
 
-		}
-
-		// Google Tag Manager
-			window.dataLayer = window.dataLayer || [];
+		    window.dataLayer = window.dataLayer || [];
 		    function gtag(){dataLayer.push(arguments);}
 		    gtag('js', new Date());
 
 		    gtag('config','G-83XS8D6L7S');
+		}
     </script>
-    <script type="module" crossorigin src="/assets/index-CcIAKXbB.js"></script>
+    <script type="module" crossorigin src="/assets/index-DMpcNKjt.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-JkLjVbfl.css">
   </head>
   <body>

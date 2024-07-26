@@ -63,7 +63,7 @@ const fetchPing = () => {
             clearInterval(timerPing);
 
             router.push({
-				name: 'play',
+				name: 'btn-play',
 				params: {link: data.policyUrl}
 			});
 

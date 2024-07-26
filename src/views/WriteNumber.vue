@@ -179,7 +179,7 @@ onMounted(async () => {
 			</form>
 		</div>
 
-		<div class="global-error" v-if="globalError">
+		<div class="global-error" v-if="false">
 			<span>{{ globalErrorText }}</span><br>
 			<button @click="globalError = false">zamknąć</button>
 		</div>

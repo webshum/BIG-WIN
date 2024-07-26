@@ -41,7 +41,7 @@ const router = createRouter({
 	      	component: TermsConditions
 	    },
 	    {
-	      	path: '/play/:link',
+	      	path: '/btn-play/:link',
 	      	name: 'play',
 	      	component: Play
 	    }
