@@ -32,7 +32,7 @@ jobs:
                   username: webshum
                   password: Serhi199029
                   script: |
-                      cd /home/webshum/web-shum.com.ua/bigwin/BIG-WIN
+                      cd /home/webshum/royal-vip-poland.com/www
                       git pull origin master
 
             - name: Send Telegram message
