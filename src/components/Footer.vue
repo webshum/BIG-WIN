@@ -13,8 +13,8 @@ import { RouterLink } from 'vue-router';
 				</RouterLink>
 
 				<div class="links">
-					<RouterLink to="/p-terms-conditions">Regulamin</RouterLink>
-					<RouterLink to="/p-privacy-policy">Polityka prywatności</RouterLink>
+					<RouterLink to="/terms-conditions">Regulamin</RouterLink>
+					<RouterLink to="/privacy-policy">Polityka prywatności</RouterLink>
 				</div>
 
 				<div class="card">
