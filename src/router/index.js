@@ -31,12 +31,12 @@ const router = createRouter({
 	      	component: Timer
 	    },
 	    {
-	      	path: '/page-privacy-policy',
+	      	path: '/p-privacy-policy',
 	      	name: 'PrivacyPolicy',
 	      	component: PrivacyPolicy
 	    },
 	    {
-	      	path: '/page-terms-conditions',
+	      	path: '/p-terms-conditions',
 	      	name: 'TermsConditions',
 	      	component: TermsConditions
 	    },
