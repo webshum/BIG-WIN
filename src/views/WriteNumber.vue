@@ -87,18 +87,18 @@ async function onSubmit() {
 		localStorage.setItem('code', dataCountry.code);
 		localStorage.setItem('phone', tel.value.toString());
 
-		if (data.needVerif) {
-			router.push('/verification');
-		} else {
-			router.push('/timer-verifi');
-		}
-
 		gtag('event', 'button_click', {
 	    	'event_category': 'Button',
 	    	'event_label': 'New clients'
 	    });
 
 	    fbq('trackCustom', 'New clients');
+
+		if (data.needVerif) {
+			router.push('/verification');
+		} else {
+			router.push('/timer-verifi');
+		}
 	} else {
 		globalError.value = true;
 		globalErrorText.value = data;

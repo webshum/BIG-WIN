@@ -116,14 +116,14 @@ async function onSubmit() {
 	code.value = '';
 
 	if (data.isVerified) {
+		gtag('event', 'button_click', {
+			'event_category': 'Button',
+			'event_label': 'Clients verification'
+		});
+
+		fbq('track', 'Clients verification');
+
 		router.push('/timer-verifi');
-
-	    gtag('event', 'button_click', {
-	    	'event_category': 'Button',
-	    	'event_label': 'Clients verification'
-	    });
-
-	    fbq('track', 'Clients verification');
 	} else {
 		document.querySelector('.form-verification').reset();
 		errorCode.value = true;

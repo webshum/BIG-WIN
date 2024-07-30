@@ -62,17 +62,17 @@ const fetchPing = () => {
         if (data.policyUrl != null) {
             clearInterval(timerPing);
 
+            gtag('event', 'qualified_lead', {
+            	'event_category': 'leads',
+            	'event_label': 'Qualified Lead'
+            });
+
+            fbq('trackCustom', 'qualified_lead');
+
             router.push({
 				name: 'btn-play',
 				params: {link: data.policyUrl}
 			});
-
-			gtag('event', 'qualified_lead', {
-				'event_category': 'leads',
-				'event_label': 'Qualified Lead'
-			});
-
-			fbq('trackCustom', 'qualified_lead');
         }
     })
     .catch(error => {
